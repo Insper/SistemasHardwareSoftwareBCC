@@ -13,7 +13,7 @@
 | Data início | Atividade/Lab                     | Como entregar                                                         | Prazo              |
 |-------------|-----------------------------------|-----------------------------------------------------------------------|--------------------|
 | 11/08 | Instalação | Sem entrega, apenas instale o Ubuntu 22.04!| 23/08 |
-| 25/08 | 01-inteiros | Github (Lembre de [Criar repo](https://classroom.github.com/a/XuVO6cKi) e [Configurar webhook](https://insper.blackboard.com/bbcswebdav/pid-1122467-dt-content-rid-11885055_2/xid-11885055_2)) | 17/02 23h59 |\
+| 25/08 | 01-inteiros | Github (Lembre de [Criar repo](https://classroom.github.com/a/C-b-VKgJ) e [Configurar webhook](https://insper.blackboard.com/bbcswebdav/pid-1122467-dt-content-rid-11885055_2/xid-11885055_2)) | 17/02 23h59 |\
 <!-- | 23/02 | 02-intro-gdb | Github | 26/02 23h59 |
 | 27/02 | 03-funcoes | Github | 06/03 12h00 |
 | 27/02 | 01-hackerlab | Github | 25/03 23h59 |
