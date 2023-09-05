@@ -2,7 +2,7 @@
 
 Bem vindo ao curso de Sistemas Hardware-Software 2023/2. 
 
-* **Professor**: Carlos Eduardo Dantas de Menezes
+* **Professor**: Carlos Eduardo Dantas de Menezes (carlosedm@insper.edu.br)
 
 ## Avaliação
 
