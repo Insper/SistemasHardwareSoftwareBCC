@@ -274,7 +274,7 @@ Veremos agora um exemplo `if/else`:
 ```c
 int exemplo2(long a, long b) {
     long c;
-    if (a >= 4 && b <= 0) {
+    if (a >= 5 && b <= 0) {
         c = a + b;
     } else {
         c = a - b;
