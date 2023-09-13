@@ -10,7 +10,7 @@ Vimos na expositiva que toda operação aritmética preenche as flags `CF`, `ZF`
     * Direto: https://users.dickinson.edu/~braught/kands/KandS2/datapath.html
     * Geral: https://users.dickinson.edu/~braught/kands/kands.html
 
-A tabela abaixo mostra as instruções responsáveis cada tipo de expressão booleana.
+A tabela abaixo mostra as instruções responsáveis por cada tipo de expressão booleana.
 
 ![Tabela de set para operações booleanas](tabela-set.png)
 
