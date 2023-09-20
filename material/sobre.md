@@ -18,9 +18,9 @@
 | 01/09 | 03-funcoes | Github | 10/09 23h59 |
 | 06/09 | 01-hackerlab | Github | 01/10 23h59 |
 | 15/09 | 04-condicionais-funcoes | Github | 20/09 23h59 |
-<!-- | 07/03 | 05-loops | Github | 13/03 13h15 |
-| 13/03 | 06-variaveis-locais | Github | 17/03 23h59 |
-| 16/03 | 07-arrays | Github | 19/03 23h59 |
+| 20/09 | 05-loops | Github | 27/09 23h59 |
+| 20/09 | 06-variaveis-locais | Github | 27/09 23h59 |
+<!-- | 16/03 | 07-arrays | Github | 19/03 23h59 |
 | 20/03 | 08-malloc | Github | 26/03 23h59 |
 | 23/03 | 09-tad | Github | 10/04 12h00 |
 | 19/04 | 10-processos | Github | 25/04 23h59 |
