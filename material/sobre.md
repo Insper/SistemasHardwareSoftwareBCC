@@ -20,8 +20,8 @@
 | 15/09 | 04-condicionais-funcoes | Github | 20/09 23h59 |
 | 20/09 | 05-loops | Github | 27/09 23h59 |
 | 20/09 | 06-variaveis-locais | Github | 27/09 23h59 |
-<!-- | 16/03 | 07-arrays | Github | 19/03 23h59 |
-| 20/03 | 08-malloc | Github | 26/03 23h59 |
+| 29/09 | 07-arrays | Github | 04/10 23h59 |
+<!-- | 20/03 | 08-malloc | Github | 26/03 23h59 |
 | 23/03 | 09-tad | Github | 10/04 12h00 |
 | 19/04 | 10-processos | Github | 25/04 23h59 |
 | 19/04 | 11-exec | Github | 24/04 12h00 |
