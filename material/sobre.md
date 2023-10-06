@@ -21,9 +21,9 @@
 | 20/09 | 05-loops | Github | 27/09 23h59 |
 | 20/09 | 06-variaveis-locais | Github | 27/09 23h59 |
 | 29/09 | 07-arrays | Github | 04/10 23h59 |
-| 04/10 | 10-processos | Github | 09/10 23h59 |
-<!-- | 19/04 | 11-exec | Github | 24/04 12h00 |
-| 19/04 | 12-entrada-saida | Github | 28/04 23h59 |
+| 04/10 | 08-processos | Github | 09/10 23h59 |
+| 06/10 | 09-exec | Github | 16/10 23h59 |
+<!-- | 19/04 | 12-entrada-saida | Github | 28/04 23h59 |
 | 26/04 | 02-inspercoin | Github | 18/05 15h30 |
 | 08/05 | 13-threads | Github | 18/05 15h30 |
 | 17/05 | 14-barrier | Github | 22/05 23h59 |
