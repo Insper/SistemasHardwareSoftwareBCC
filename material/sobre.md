@@ -23,8 +23,8 @@
 | 29/09 | 07-arrays | Github | 04/10 23h59 |
 | 04/10 | 08-processos | Github | 09/10 23h59 |
 | 06/10 | 09-exec | Github | 16/10 23h59 |
-<!-- | 19/04 | 12-entrada-saida | Github | 28/04 23h59 |
-| 26/04 | 02-inspercoin | Github | 18/05 15h30 |
+| 11/10 | 10-entrada-saida | Github | 18/10 23h59 |
+<!-- | 26/04 | 02-inspercoin | Github | 18/05 15h30 |
 | 08/05 | 13-threads | Github | 18/05 15h30 |
 | 17/05 | 14-barrier | Github | 22/05 23h59 |
 | 22/05 | 03-sort-merge | Github | 31/05 23h59 | -->
