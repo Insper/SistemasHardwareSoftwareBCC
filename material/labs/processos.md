@@ -57,3 +57,24 @@ O programa será avaliado de forma manual usando uma rubrica que descreve as fun
 ### Prazo:
 
 [Clique aqui!](../../sobre).
+
+### Dicas:
+
+- Instale o pacote *libcurl4-openssl-dev* 
+
+<div class="termy">
+```console
+$ sudo apt install libcurl4-openssl-dev
+```
+</div>
+
+- Veja o exemplo em: *https://curl.se/libcurl/c/10-at-a-time.html*. Compile-o assim:
+
+<div class="termy">
+```console
+$ gcc testeCurl.c -o testeCurl -Wall -Wno-unused-result -Og -g -lcurl
+```
+</div>
+
+
+
