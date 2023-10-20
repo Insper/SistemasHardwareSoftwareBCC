@@ -108,7 +108,7 @@ nav:
         - aulas/11-exec/index.md
         - aulas/12-entrada-saida/index.md
         - aulas/13-sinais-I/index.md
-        # - aulas/18-sinais-II/index.md
+        - aulas/14-sinais-II/index.md
         # - aulas/19-threads-I/index.md
         # - aulas/20-sincronizacao/index.md
         # - aulas/21-semaforos/index.md
