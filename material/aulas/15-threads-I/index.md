@@ -66,7 +66,7 @@ Uma variável do tipo `void *` representa um endereço de memória cujo conteúd
 Assim como processos, threads são escalonadas pelo kernel. Isto significa que **não controlamos a ordem em que elas rodam** no nosso programa. Ou seja, ao executar `pthread_create` não sabemos se a thread principal (aquela que roda o `main`) continuará rodando ou se o controle passará instantaneamente para a nova thread. A primitiva de **sincronização** mais simples que dispomos é `pthread_join`, que garante que uma thread só prossegue quando outra acabar.
 
 !!! exercise text short
-    Retire o `pthread_join` do programa exemplo e o execute. Repita a execução várias vezes. Todas as vezes o resultado é o mesmo? O quê acontece?
+    Retire o `pthread_join` do programa exemplo e o execute. Repita a execução várias vezes. Todas as vezes o resultado é o mesmo? O que acontece?
 
     !!! answer "Resposta"
         Não. Como a `main` pode chegar no `return 0`, então o processo pode acabar sem que a thread tenha sido devidamente executada.
