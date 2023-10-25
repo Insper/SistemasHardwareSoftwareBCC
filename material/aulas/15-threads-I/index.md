@@ -153,7 +153,7 @@ Vamos explorar a resposta da pergunta acima nos próximos exercícios. Para cada
     ```
 
     !!! answer "Resposta"
-        Com threads, não tenho garantir da ordem de escalonamento (não qual thread o sistema operacional vai escolher para execução, nem em qual ordem). Assim, a thread da `main` altera o valor da variável `i` e quando cada thread executa, o valor recuperado é diferente do esperado.
+        Com threads, não tenho como garantir a ordem de escalonamento (nem qual thread o sistema operacional vai escolher para execução, nem em qual ordem). Assim, a thread da `main` altera o valor da variável `i` e quando cada thread executa, o valor recuperado é diferente do esperado.
 
 !!! exercise text medium
     Identifique um problema de escopo de dados no código abaixo (arquivo *parte2-2.c*)
