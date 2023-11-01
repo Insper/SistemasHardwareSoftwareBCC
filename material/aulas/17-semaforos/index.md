@@ -91,7 +91,7 @@ Como estamos usando threads, estamos interessados em **unnamed semaphores**. Use
 ## Barreiras - Exercício para Entrega
 
 !!! tip
-    Esta aula contém atividade para entrega! Trabalhe na pasta `atv/14-barrier` que está no seu repositório de entregas! Leia o `README.md`!
+    Esta aula contém atividade para entrega! Trabalhe na pasta `atv/12-barrier` que está no seu repositório de entregas! Leia o `README.md`!
 
 Se até aqui foi tranquilo, vamos misturar as duas aulas? Uma barreira é a generalização do Rendez-vous, em que `N` threads rodando o mesmo código precisam esperar umas pelas outras para continuar.
 
@@ -134,6 +134,6 @@ Seguiremos o seguinte algoritmo:
     Implemente as ideias acima no arquivo `barrier.c`.
 
 !!! done
-    Acabou? Garanta que seu resultado está na pasta `14-barrier` do repositório de atividades e faça a submissão da tag!
+    Acabou? Garanta que seu resultado está na pasta `12-barrier` do repositório de atividades e faça a submissão da tag!
 
 
