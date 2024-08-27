@@ -162,7 +162,7 @@ A tabela abaixo mostra as operações de saltos condicionais.
 
 Vamos agora fazer um exemplo guiado. Analisaremos o seguinte código:
 
-```c
+```asm
 0000000000000000 <eh_par>:
 0:   40 f6 c7 01             test   $0x1,%dil
 4:   74 06                   je     c <eh_par+0xc>
