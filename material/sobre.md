@@ -14,9 +14,9 @@
 |-------------|-----------------------------------|-----------------------------------------------------------------------|--------------------|
 | 16/08 | Instalação | Sem entrega, apenas instale o Ubuntu 22.04!| 23/08 |
 | 21/08 | 01-inteiros | Github (Lembre de [Criar repo](https://classroom.github.com/a/NUjY7tNw) e [Configurar webhook](https://insper.github.io/SistemasHardwareSoftwareBCC/outros/tutorial_servidor_testes.pdf)) | 28/08 23h59 |\
-| 23/08 | 02-intro-gdb | Github | 30/08 23h59 |
-<!-- | 01/09 | 03-funcoes | Github | 10/09 23h59 |
-| 06/09 | 01-hackerlab | Github | 01/10 23h59 |
+| 23/08 | 02-intro-gdb | Github | 04/09 23h59 |
+| 30/08 | 03-funcoes | Github | 11/09 23h59 |
+<!-- | 06/09 | 01-hackerlab | Github | 01/10 23h59 |
 | 15/09 | 04-condicionais-funcoes | Github | 20/09 23h59 |
 | 20/09 | 05-loops | Github | 27/09 23h59 |
 | 20/09 | 06-variaveis-locais | Github | 27/09 23h59 |
