@@ -17,7 +17,7 @@
 | 23/08 | 02-intro-gdb | Github | 04/09 23h59 |
 | 30/08 | 03-funcoes | Github | 11/09 23h59 |
 | 06/09 | 01-hackerlab | Github | 25/09 23h59 |
-| 06/09 | 04-condicionais-funcoes | Github | 18/09 23h59 |
+| 06/09 | 04-condicionais-funcoes | Github | 20/09 23h59 |
 <!--| 20/09 | 05-loops | Github | 27/09 23h59 |
 | 20/09 | 06-variaveis-locais | Github | 27/09 23h59 |
 | 29/09 | 07-arrays | Github | 04/10 23h59 |
