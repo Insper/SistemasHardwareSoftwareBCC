@@ -22,8 +22,8 @@
 | 27/09 | 06-variaveis-locais | Github | 04/10 23h59 |
 | 27/09 | 07-arrays | Github | 04/10 23h59 |
 | 02/10 | 08-processos | Github | 09/10 23h59 |
-<!--| 06/10 | 09-exec | Github | 16/10 23h59 |
-| 11/10 | 10-entrada-saida | Github | 18/10 23h59 |
+| 04/10 | 09-exec | Github | 11/10 23h59 |
+<!--| 11/10 | 10-entrada-saida | Github | 18/10 23h59 |
 | 18/10 | 02-web-downloader | Github | 01/11 23h59 |
 | 25/10 | 11-threads | Github | 29/10 23h59 |
 | 01/11 | 12-barrier | Github | 08/11 23h59 |
