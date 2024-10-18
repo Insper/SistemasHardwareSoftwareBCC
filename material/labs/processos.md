@@ -68,7 +68,7 @@ $ sudo apt install libcurl4-openssl-dev
 ```
 </div>
 
-- Exemplo muuuuuito simples para comerçar:
+- Exemplo muuuuuito simples para começar:
 ```c
 /*
 Compile:
