@@ -99,6 +99,7 @@ int main(int argc, char **argv)
         fp = fopen(argv[2], "wb");
         
         // primeiro parâmetro é URL a ser baixada
+        curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/81.0");
         curl_easy_setopt(curl, CURLOPT_URL, argv[1]);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
         curl_easy_setopt(curl, CURLOPT_FAILONERROR, 1L);
