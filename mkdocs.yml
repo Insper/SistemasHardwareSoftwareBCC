@@ -110,7 +110,7 @@ nav:
         - aulas/13-sinais-I/index.md
         - aulas/14-sinais-II/index.md
         - aulas/15-threads-I/index.md
-        # - aulas/16-sincronizacao/index.md
+        - aulas/16-sincronizacao/index.md
         # - aulas/17-semaforos/index.md
         # - aulas/18-semaforos-II/index.md
         # - aulas/19-questoes-de-revisao/index.md
