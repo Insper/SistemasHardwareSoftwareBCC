@@ -26,8 +26,9 @@
 | 09/10 | 10-entrada-saida | Github | 16/10 23h59 |
 | 18/10 | 02-web-downloader | Github | 30/10 23h59 |
 | 23/10 | 11-threads | Github | 27/10 23h59 |
-<!--| 01/11 | 12-barrier | Github | 08/11 23h59 |
-| 01/11 | 03-sort-merge | Github | 15/11 23h59 |
+| 30/10 | 12-barrier | Github | 06/11 23h59 |
+| 30/10 | 03-sort-merge | Github | 13/11 23h59 |
+ <!--
  -->
 
 
