@@ -13,7 +13,7 @@
 | Data início | Atividade/Lab                     | Como entregar                                                         | Prazo              |
 |-------------|-----------------------------------|-----------------------------------------------------------------------|--------------------|
 | 05/02 | Instalação | Sem entrega, apenas instale o Ubuntu 22.04!| 14/02 |
-| 14/02 | 01-inteiros | Github (Lembre de [Criar repo](https://classroom.github.com/a/UUBJfjJa) e [Configurar webhook](https://insper.github.io/SistemasHardwareSoftwareBCC/outros/tutorial_servidor_testes.pdf)) | 19/02 23h59 |\
+| 14/02 | 01-inteiros | Github (Lembre de [Criar repo](https://classroom.github.com/a/UUBJfjJa) e [Configurar webhook](https://insper.github.io/SistemasHardwareSoftwareBCC/outros/tutorial_servidor_testes.pdf)) | 19/02 23h59 |
 <!--| 23/08 | 02-intro-gdb | Github | 04/09 23h59 |
 | 30/08 | 03-funcoes | Github | 11/09 23h59 |
 | 06/09 | 01-hackerlab | Github | 29/09 23h59 |
@@ -28,7 +28,6 @@
 | 23/10 | 11-threads | Github | 27/10 23h59 |
 | 30/10 | 12-barrier | Github | 06/11 23h59 |
 | 30/10 | 03-sort-merge | Github | 13/11 23h59 |
- 
  -->
 
 
