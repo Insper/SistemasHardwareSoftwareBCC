@@ -124,5 +124,5 @@ nav:
         - outros/vbox.md
         - outros/simuladorProcessador.md
         - outros/gdb.md
-	- outros/CompilerExplorer.md        
+        - outros/CompilerExplorer.md        
 
