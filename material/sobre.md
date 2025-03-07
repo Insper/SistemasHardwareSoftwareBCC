@@ -16,8 +16,8 @@
 | 14/02 | 01-inteiros | Github (Lembre de [Criar repo](https://classroom.github.com/a/UUBJfjJa) e [Configurar webhook](https://insper.github.io/SistemasHardwareSoftwareBCC/outros/tutorial_servidor_testes.pdf)) | 28/02 23h59 |
 | 19/02 | 02-intro-gdb | Github | 28/02 23h59 |
 | 28/02 | 03-funcoes | Github | 07/03 23h59 |
+| 07/03 | 04-condicionais-funcoes | Github | 14/03 23h59 |
 <!--| 06/09 | 01-hackerlab | Github | 29/09 23h59 |
-| 06/09 | 04-condicionais-funcoes | Github | 25/09 23h59 |
 | 18/09 | 05-loops | Github | 25/09 23h59 |
 | 27/09 | 06-variaveis-locais | Github | 04/10 23h59 |
 | 27/09 | 07-arrays | Github | 04/10 23h59 |
