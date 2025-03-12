@@ -1,4 +1,4 @@
-# Simulador de Processador Knob&Switch
+# Compiler Explorer
 
 O site abaixo mostra como vários compiladores geram código. Muito bom para aprendizado!
 
