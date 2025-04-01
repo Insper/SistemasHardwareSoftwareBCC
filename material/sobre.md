@@ -18,11 +18,11 @@
 | 28/02 | 03-funcoes | Github | 07/03 23h59 |
 | 07/03 | 04-condicionais-funcoes | Github | 14/03 23h59 |
 | 07/03 | 01-hackerlab | Github | 26/03 23h59 |
-<!--| 18/09 | 05-loops | Github | 25/09 23h59 |
-| 27/09 | 06-variaveis-locais | Github | 04/10 23h59 |
-| 27/09 | 07-arrays | Github | 04/10 23h59 |
-| 02/10 | 08-processos | Github | 09/10 23h59 |
-| 04/10 | 09-exec | Github | 11/10 23h59 |
+| 14/03 | 05-loops | Github | 26/03 23h59 |
+| 14/03 | 06-variaveis-locais | Github | 26/03 23h59 |
+| 14/03 | 07-arrays | Github | 26/03 23h59 |
+| 02/04 | 08-processos | Github | 06/04 23h59 |
+<!--| 04/10 | 09-exec | Github | 11/10 23h59 |
 | 09/10 | 10-entrada-saida | Github | 16/10 23h59 |
 | 18/10 | 02-web-downloader | Github | 30/10 23h59 |
 | 23/10 | 11-threads | Github | 27/10 23h59 |
