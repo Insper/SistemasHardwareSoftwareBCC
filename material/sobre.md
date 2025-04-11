@@ -23,9 +23,9 @@
 | 14/03 | 07-arrays | Github | 26/03 23h59 |
 | 02/04 | 08-processos | Github | 09/04 23h59 |
 | 04/04 | 09-exec | Github | 11/04 23h59 |
-<!--| 09/10 | 10-entrada-saida | Github | 16/10 23h59 |
-| 18/10 | 02-web-downloader | Github | 30/10 23h59 |
-| 23/10 | 11-threads | Github | 27/10 23h59 |
+| 11/04 | 10-entrada-saida | Github | 16/04 23h59 |
+| 11/04 | 02-web-downloader | Github | 23/04 23h59 |
+<!--| 23/10 | 11-threads | Github | 27/10 23h59 |
 | 30/10 | 12-barrier | Github | 06/11 23h59 |
 | 30/10 | 03-sort-merge | Github | 13/11 23h59 |
  -->
