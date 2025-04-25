@@ -109,7 +109,7 @@ nav:
         - aulas/12-entrada-saida/index.md
         - aulas/13-sinais-I/index.md
         - aulas/14-sinais-II/index.md
-        # - aulas/15-threads-I/index.md
+        - aulas/15-threads-I/index.md
         # - aulas/16-sincronizacao/index.md
         # - aulas/17-semaforos/index.md
         # - aulas/18-semaforos-II/index.md
@@ -118,7 +118,7 @@ nav:
     - Labs:
         - labs/hackerlab.md
         - labs/processos.md
-        # - labs/threads.md
+        - labs/threads.md
     - Dicas:
         - outros/github.md
         - outros/vbox.md
