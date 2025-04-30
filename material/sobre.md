@@ -26,9 +26,9 @@
 | 11/04 | 10-entrada-saida | Github | 16/04 23h59 |
 | 11/04 | 02-web-downloader | Github | 25/04 23h59 |
 | 25/10 | 11-threads | Github | 30/04 23h59 |
-<!--| 30/10 | 12-barrier | Github | 06/11 23h59 |
-| 30/10 | 03-sort-merge | Github | 13/11 23h59 |
- -->
+| 30/10 | 12-barrier | Github | 07/05 23h59 |
+| 30/10 | 03-sort-merge | Github | 07/05 23h59 |
+<!-- -->
 
 
 # Provas
