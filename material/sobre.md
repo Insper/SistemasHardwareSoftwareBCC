@@ -2,19 +2,19 @@
 
 # Aulas
 
-* QUA 15:45 - 17:45
-* SEX 15:45 - 17:45
+* QUA 16:30 - 18:30
+* SEX 14:15 - 16:15
 
-* Atendimento: QUA 17:45 - 19:15
+* Atendimento: SEX 16:15 - 17:45
 
 # Entregas de Atividades e Labs
 
 
 | Data início | Atividade/Lab                     | Como entregar                                                         | Prazo              |
 |-------------|-----------------------------------|-----------------------------------------------------------------------|--------------------|
-| 05/02 | Instalação | Sem entrega, apenas instale o Ubuntu 22.04!| 14/02 |
-| 14/02 | 01-inteiros | Github (Lembre de [Criar repo](https://classroom.github.com/a/UUBJfjJa) e [Configurar webhook](https://insper.github.io/SistemasHardwareSoftwareBCC/outros/tutorial_servidor_testes.pdf)) | 28/02 23h59 |
-| 19/02 | 02-intro-gdb | Github | 28/02 23h59 |
+| 13/08 | Instalação | Sem entrega, apenas instale o Ubuntu 22.04!| 22/08 |
+| 22/08 | 01-inteiros | Github (Lembre de [Criar repo](https://classroom.github.com/a/dqOSMgNd) e [Configurar webhook](https://insper.github.io/SistemasHardwareSoftwareBCC/outros/tutorial_servidor_testes.pdf)) | 27/08 23h59 |
+<!--| 19/02 | 02-intro-gdb | Github | 28/02 23h59 |
 | 28/02 | 03-funcoes | Github | 07/03 23h59 |
 | 07/03 | 04-condicionais-funcoes | Github | 14/03 23h59 |
 | 07/03 | 01-hackerlab | Github | 26/03 23h59 |
@@ -28,7 +28,7 @@
 | 25/10 | 11-threads | Github | 30/04 23h59 |
 | 30/10 | 12-barrier | Github | 07/05 23h59 |
 | 30/10 | 03-sort-merge | Github | 07/05 23h59 |
-<!-- -->
+ -->
 
 
 # Provas

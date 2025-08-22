@@ -1,11 +1,11 @@
-site_name: Sistemas Hardware-Software - 2025/1
+site_name: Sistemas Hardware-Software - 2025/2
 site_author: Carlos Menezes
 
 
 extra:
     materia: Sistemas Hardware-Software
     professor: Carlos Menezes
-    semestre: 2025/1
+    semestre: 2025/2
 
 theme:
   feature:

@@ -1,6 +1,6 @@
 # Sistemas Hardware-Software
 
-Bem vindo ao curso de Sistemas Hardware-Software 2025/1. 
+Bem vindo ao curso de Sistemas Hardware-Software 2025/2. 
 
 * **Professor**: Carlos Eduardo Dantas de Menezes (carlosedm@insper.edu.br)
 
