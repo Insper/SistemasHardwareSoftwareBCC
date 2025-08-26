@@ -6,7 +6,7 @@ Mas antes de começar, você sabe o que é um  <b> <a href="./dicas/sistemas-har
 
 ## Links importantes
 
-* **[Repositório da disciplina](https://github.com/Insper/SistemasHardwareSoftware.git)**: nesse link você terá acesso aos exemplos apresentados em sala, sugiro clonar o repositório e atualizar em cada aula.
+* **[Repositório da disciplina](https://github.com/Insper/SistemasHardwareSoftwareBCC.git)**: nesse link você terá acesso aos exemplos apresentados em sala, sugiro clonar o repositório e atualizar em cada aula.
 
 * **[Blackboard](https://insper.blackboard.com/)**: usado principalmente para enviar mensagens e entrega das avaliações `AI` e `AF`. 
 * **[Informações importantes](sobre.md)**:  nesse link você encontrará informações importantes da disciplina, como por exemplo os critérios de aprovação. Leia com atenção!!

@@ -8,7 +8,7 @@ Acredito que para nossos propositos na disciplina de SisHard seja suficiente.
 
 ## GDB - referência completa
 
-O GNU Debugger, mais conhecido por GDB, é um depurador do GNU. Ele pode ser usado para depuração em sistemas Unix-like, como por exemplo o Ubuntu 22.04, na nossa disciplina usaremos o GDB para entender os códigos em assemblye de atividades e do Lab01
+O GNU Debugger, mais conhecido por GDB, é um depurador do GNU. Ele pode ser usado para depuração em sistemas Unix-like, como por exemplo o Ubuntu 22.04, na nossa disciplina usaremos o GDB para entender os códigos em assembly de atividades e do Lab01.
 
 Para aprender como depurar código com GDB acesse este link [https://diveintosystems.org/book/C3-C_debug/gdb.html](https://diveintosystems.org/book/C3-C_debug/gdb.html) e nesse link [https://diveintosystems.org/book/C3-C_debug/gdb_commands.html](https://diveintosystems.org/book/C3-C_debug/gdb_commands.html) você poderá conhecer o os principais comandos do gdb.
  
@@ -16,7 +16,6 @@ Nesse link [https://sourceware.org/gdb/current/onlinedocs/gdb](https://sourcewar
  você terá a documentação completa do GDB.
 
 Aqui [https://sourceware.org/gdb/current/onlinedocs/gdb.html/Memory.html](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Memory.html) tem as explicações do comando `x` (`x/nfu addr`) que permite examinar a memória de um programa Assembly.
-
 
 
 ## Compiler Explorer - godbolt.org
@@ -31,6 +30,16 @@ Para utilizá-lo [acesse o LINK](https://godbolt.org/), a configuação do godbo
 No link abaixo está uma visão geral dos assuntos abordados na primeira parte da disciplina de Sistemas Hardware-Software elaborado na Universidade de Stanford. 
 
 [acesse o LINK](https://web.stanford.edu/class/cs107/guide/x86-64.html)
+
+
+## Simulador de Processador Knob&Switch
+
+Quem quiser experimentar os quatro níveis de abstração do simulador de processador:
+
+[Simulador](https://users.dickinson.edu/~braught/kands/kands.html)
+
+[Manual do Assembly](https://users.dickinson.edu/~braught/kands/KandS2/instructions.html)
+
 
 ## Ponteiros e alocação de memória na Linguagem C
 

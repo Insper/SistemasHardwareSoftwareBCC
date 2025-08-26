@@ -4,8 +4,8 @@ site_name: Sistemas Hardware-Software - 2025/2
 
 extra:
   custom_variables:
-    repo_aps: https://github.com/Insper/SistemasHardwareSoftware/
-    repo_aps_git: https://github.com/Insper/SistemasHardwareSoftware.git
+    repo_aps: https://github.com/Insper/SistemasHardwareSoftwareBCC/
+    repo_aps_git: https://github.com/Insper/SistemasHardwareSoftwareBCC.git
 
 extra_javascript:
   - js/tabs.js

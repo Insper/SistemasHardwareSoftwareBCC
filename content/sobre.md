@@ -1,16 +1,16 @@
 # Sistemas Hardware-Software
 
-* **Professor**: Fabio Lubacheski (e-mail: **fabioagl@insper.edu.br**)
+* **Professor**: Carlos Menezes (e-mail: **carlosedm@insper.edu.br**)
 
 * **Ninja**:  
-    - Maria Luiza Sevilha Seraphico de Assis Carvalho
+    - João Pedro Queiroz Viana
 
 
 ## Aulas
 
-- **segunda-feira**: 16:30 às 18:30 (Lab Ágil 2)
-- **quinta-feira**:  16:30 às 18:30 (Lab Ágil 2)
-- Atendimento **quinta-feira** 14:45 às 16:15 (Sala 411 - 4º andar - Prédio Quatá 200)
+- **Quartas-feiras**: 16:30 às 18:30 (Sala 514)
+- **Sextas-feiras**:  14:15 às 16:15 (Sala 514)
+- Atendimento **Sextas-feiras** 16:15 às 17:45 (Laboratório Ágil 1 - 4º andar)
 
 ## Instrumentos avaliativos
 
