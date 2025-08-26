@@ -2,8 +2,7 @@
 
 * **Professor**: Carlos Menezes (e-mail: **carlosedm@insper.edu.br**)
 
-* **Ninja**:  
-    - João Pedro Queiroz Viana
+* **Ninja**: João Pedro Queiroz Viana
 
 
 ## Aulas
