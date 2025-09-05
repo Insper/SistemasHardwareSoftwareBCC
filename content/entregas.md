@@ -7,11 +7,11 @@ Cada tarefa detalha como sua submissão deve ser feita. Geralmente, basta enviar
 |-------------|----------------------------------------------------------------------------|-----------------|--------------------|
 | 06/08 | Instalação | Sem entrega, apenas instale o Ubuntu 22.04! | 18/08 15:45 |
 | 22/08 | Atv01-inteiros | Github (Lembre de **[Criar repo](https://classroom.github.com/a/dqOSMgNd)** e **[Configurar webhook](./dicas/tutorial_servidor_testes.pdf)**) | 29/08 23h59 |
-| 27/08 | Atv02-intro-gdb | Github | 03/09 23h59 |
-<!--| 24/02 | Atv03-funcoes | Github | 07/03 23h59 |
-| 27/02 | Lab01-hackerlab  | Github | 27/03 23h59 |
-| 06/03 | Atv04-condicionais-funcoes | Github | 13/03 23h59 |
-| 10/03 | Atv05-loops | Github | 16/03 23h59 |
+| 27/08 | Atv02-intro-gdb | Github | 05/09 23h59 |
+| 03/09 | Atv03-funcoes | Github | 10/09 23h59 |
+| 05/09 | Lab01-hackerlab  | Github | 24/09 23h59 |
+| 05/09 | Atv04-condicionais-funcoes | Github | 12/09 23h59 |
+<!--| 10/03 | Atv05-loops | Github | 16/03 23h59 |
 | 13/03 | Atv06-variaveis-locais | Github | 20/03 23h59 |
 | 17/03 | Atv07-arrays | Github | 23/03 23h59 |
 | 20/03 | Atv08-malloc | Github | 27/03 23h59 |

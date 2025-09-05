@@ -74,4 +74,4 @@ São dez níveis e cada um vale **1,0** de nota. Sua solução conseguirá ficar
 
 ## Qual o prazo?
 
-Veja mais em https://insper.github.io/SistemasHardwareSoftware/sobre/
+Veja mais em https://insper.github.io/SistemasHardwareSoftwareBCC/sobre/
