@@ -5,7 +5,7 @@
 
 Na aula de hoje iremos revisar nossas atividades com Assembly e representação de inteiros.
 
-Quando tiver dúvidas, chame o professor ou os ninjas!
+Quando tiver dúvidas, chame o professor ou o ninja!
 
 !!! Warning "Importante"
     Esta aula tem duas partes:
