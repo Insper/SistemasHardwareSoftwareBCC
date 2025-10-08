@@ -15,10 +15,10 @@ Cada tarefa detalha como sua submissão deve ser feita. Geralmente, basta enviar
 <!--| 13/03 | Atv06-variaveis-locais | Github | 20/03 23h59 |
 | 17/03 | Atv07-arrays | Github | 23/03 23h59 |
 | 20/03 | Atv08-malloc | Github | 27/03 23h59 |
-| 07/04 | Atv09-TAD  | Github | 11/04 23h59 |
-| 10/04 | Atv10-processos | Github | 17/04 23h59 |
-| 10/04 | **Lab02-processos** | Github | **12/05  23h59** |
-| 17/04 | Atv11-entrada-saida | Github | 24/04 23h59 |
+| 07/04 | Atv09-TAD  | Github | 11/04 23h59 | -->
+| 08/10 | Atv11-processos | Github | 15/10 23h59 |
+| 08/10 | **Lab02-processos** | Github | **22/10  23h59** |
+<!--| 17/04 | Atv11-entrada-saida | Github | 24/04 23h59 |
 | 08/05 | Atv12-threads | Github | 15/05 23h59 |
 | 05/13 | **Lab03-threads** | Github | **31/05  23h59** |  
 | 15/05 | Atv13-barrier | Github | 22/05 23h59 | -->
