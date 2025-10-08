@@ -1,5 +1,10 @@
 # 11 - Processos
 
+!!! pdf
+    ![](slides.pdf)
+
+<br>
+
 ## A chamada `fork`
 
 A chamada `fork` cria um clone do processo atual e retorna duas vezes: uma vez no processo original (pai) e uma vez no processo novo (filho). Cada processo segue executando o programa linha a linha, porém cada um possui áreas de memória separadas. Ou seja, mudar uma variável no processo pai não muda seu valor no filho (e vice-versa). Todo processo é identificado por um número chamado de `pid`.
