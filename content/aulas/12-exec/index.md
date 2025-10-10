@@ -103,7 +103,7 @@ execvp(prog, args);
         Serão três argumentos!
 
 !!! tip
-    **"if duvidas then man!"**
+    ** *if doubts then man!* **
     
     Caso tenha dúvidas, lembre-se do comando `man`. Explore o manual do `execvp` com:
     <div class="termy">
@@ -118,7 +118,7 @@ execvp(prog, args);
     Faça os dois programas abaixo do zero. Adaptar exemplos anteriores, apesar de prático, atrapalha a memorização dos comandos usados.
 
 !!! tip
-    **"Executando programas fora do `PATH` do sistema"**
+    **Executando programas fora do `PATH` do sistema**
     
     Nos exemplos de **exec**, supomos que os programas a serem executados estavam no **PATH** do sistema. Caso você queira subir algum executável que está na própria pasta do seu projeto (ou em qualquer caminho fixo/relativo conhecido), utilize algo como (**lembre do `./`**):
 
@@ -132,7 +132,7 @@ execvp(prog, args);
     ```
 
 !!! tip
-    **"Várias formas de chamar `exec`"**
+    **Várias formas de chamar `exec`**
     
     No manual, percebemos que temos várias chamadas de exec: `execl`, `execlp`, `execle`, `execv`, `execvp` e `execvpe`.
     Releia prestando atenção nas diferenças.
