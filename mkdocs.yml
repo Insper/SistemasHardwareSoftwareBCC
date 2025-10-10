@@ -31,6 +31,7 @@ nav:
     - "09 - Array em Assembly": aulas/09-arrays/index.md
     - "10 - Revisão para a AI": aulas/10-revisao-AI/index.md
     - "11 - Processos": aulas/11-processos/index.md
+    - "12 - Carregamento de programas": aulas/12-exec/index.md
   - Labs:
     - "Hackerlab": labs/hackerlab.md
     - "Lab processos": labs/processos.md
