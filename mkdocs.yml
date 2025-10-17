@@ -33,6 +33,8 @@ nav:
     - "11 - Processos": aulas/11-processos/index.md
     - "12 - Carregamento de programas": aulas/12-exec/index.md
     - "13 - Entrada/Saída": aulas/13-entrada-saida/index.md
+    - "14 - Enviando sinais": aulas/14-sinais-I/index.md
+    - "15 - Capturando sinais": aulas/15-sinais-II/index.md
   - Labs:
     - "Hackerlab": labs/hackerlab.md
     - "Lab processos": labs/processos.md
