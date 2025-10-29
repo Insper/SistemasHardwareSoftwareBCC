@@ -35,10 +35,15 @@ nav:
     - "13 - Entrada/Saída": aulas/13-entrada-saida/index.md
     - "14 - Enviando sinais": aulas/14-sinais-I/index.md
     - "15 - Capturando sinais": aulas/15-sinais-II/index.md
+    - "16 - Concorrência e Threads": aulas/16-threads-I/index.md
+    - "17 - Sincronização com Mutex": aulas/17-sincronizacao/index.md
+    - "18 - Semáforos": aulas/18-semaforos/index.md
+    - "19 - Semáforos II e Modelos de concorrência": aulas/19-semaforos-II/index.md
+    - "20 - Questões de revisão": aulas/20-questoes-de-revisao/index.md
   - Labs:
     - "Hackerlab": labs/hackerlab.md
     - "Lab processos": labs/processos.md
-  #   - "Lab threads": labs/threads.md
+    - "Lab threads": labs/threads.md
   - Referências e links:
     - "Dicas e links": dicas/DicasLinks.md
     - "Configuração github": dicas/github.md

@@ -1,4 +1,9 @@
-# 15 - Concorrência e Threads
+# 16 - Concorrência e Threads
+
+!!! pdf
+    ![](slides.pdf)
+
+<br>
 
 Nossa aula de hoje envolverá aprender a API `pthreads` para criação de threads e sincronização simples.
 

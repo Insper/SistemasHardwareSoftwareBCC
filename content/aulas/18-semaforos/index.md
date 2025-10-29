@@ -1,4 +1,9 @@
-# 17 - Semáforos
+# 18 - Semáforos
+
+!!! pdf
+    ![](slides.pdf)
+
+<br>
 
 Nas últimas aulas aprendemos as APIs da biblioteca `pthread` para criar e esperar a finalização de threads. Também aprendemos a passar argumentos e receber de volta valores usando um `struct` alocado dinamicamente.
 

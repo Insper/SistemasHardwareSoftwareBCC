@@ -1,4 +1,9 @@
-# 18 - Semáforos II e Modelos de concorrência
+# 19 - Semáforos II e Modelos de concorrência
+
+!!! pdf
+    ![](slides.pdf)
+
+<br>
 
 Na aula anterior, trabalhamos com semáforos de um ponto de vista principalmente conceitual.
 

@@ -1,4 +1,9 @@
-# 16 - Sincronização com Mutex
+# 17 - Sincronização com Mutex
+
+!!! pdf
+    ![](slides.pdf)
+
+<br>
 
 Na última aula aprendemos as APIs da biblioteca `pthread` para criar e esperar a finalização de threads. Também aprendemos a passar argumentos e receber de volta valores usando um `struct` alocado dinamicamente.
 
@@ -137,7 +142,7 @@ O exercício acima deverá ter desempenho bom, já que limitamos a quantidade de
         Cada thread poderia retornar na struct de argumentos o resultado de sua soma. Na função main, após cada reposta de conclusão da thread (retorno da `pthread_join`), poderíamos somar os resultados.
 
 !!! exercise text short
-    A ideia acima precisou de `mutex`? Por que?
+    A ideia acima precisou de `mutex`? Por quê?
 
     !!! answer "Resposta"
         Não, pois na função `main` a execução da soma seria sequencial.
