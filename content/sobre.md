@@ -1,15 +1,15 @@
-# Sistemas Hardware-Software
+# Sistemas Hardware-Software BCC
 
 * **Professor**: Carlos Menezes (e-mail: **carlosedm@insper.edu.br**)
 
-* **Ninja**: João Pedro Queiroz Viana
+* **Ninja**: Daniel Juho Kim
 
 
 ## Aulas
 
 - **Quartas-feiras**: 16:30 às 18:30 (Sala 514)
 - **Sextas-feiras**:  14:15 às 16:15 (Sala 514)
-- Atendimento **Sextas-feiras** 16:15 às 17:45 (Laboratório Ágil 1 - 4º andar)
+- Atendimento **Sextas-feiras** 16:15 às 17:45 (Sala 514)
 
 ## Instrumentos avaliativos
 
@@ -26,15 +26,14 @@ A avaliação da disciplina será composta por Avaliações (`AI` e `AF`), labor
 - **Multirão C**: final da primeira semana
 - **AI**: a definir
 - **AF**: a definir
-- **SUB**: a definir (**Todo o conteúdo da AI e AF**)
+- **SUB**: a definir (**Todo o conteúdo da avaliação que será substituída**)
 
 
 ## Critérios de avaliação
 
-
 ```
 NS = 0,10*Atv + 0,20*AI + 0,30*AF + 0,40*Lab
-NC = 0,10*Atv + 0,20*AI + 0,25*AF + 0,40*Lab + 0,05*MC
+NC = 0,10*Atv + 0,20*AI + 0,30*AF + 0,35*Lab + 0,05*MC
 ```
 
 Para aprovação as **CONDIÇÕES** abaixo devem ser atendidas:
@@ -48,11 +47,8 @@ Lab >= 5,0
 
 A média final (`MF`) é calculada com a seguinte fórmula
 
-Se **atendida** as **CONDIÇÕES**:
+Se **atendida** às **CONDIÇÕES**:
    `MF = max(NS, NC)`
 
-Se **NÃO atendida** as **CONDIÇÕES**:
+Se **NÃO atendida** às **CONDIÇÕES**:
    `MF = min(Atv, AI, AF, Lab, MC)`
-
-
-

@@ -1,6 +1,6 @@
-# Sistemas Hardware-Software
+# Sistemas Hardware-Software BCC
 
-Este repositório contém os materiais de aula usados na disciplina *Sistemas Hardware-Software*.
+Este repositório contém os materiais de aula usados na disciplina *Sistemas Hardware-Software BCC*.
 
 Baseado no active handout 
 
