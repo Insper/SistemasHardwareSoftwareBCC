@@ -50,4 +50,4 @@ O WSL 2 é o tipo de distribuição padrão ao instalar uma distribuição do Li
 
 12. Clonar o repositório de sishard e fazer um commit aleatório para confirmar que está tudo configurado certinho. Testar também o gdb no **hackerlab** e o make na **atv4** (quando estiverem disponíveis).
 
-(Agradecimentos a *João Pedro Queiroz Viana*, nosso **Ninja**)
+(Agradecimentos a *João Pedro Queiroz Viana*, nosso **ex-ninja**)
