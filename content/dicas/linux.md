@@ -26,7 +26,7 @@ O WSL 2 é o tipo de distribuição padrão ao instalar uma distribuição do Li
 
 ### Passo a passo para configurar WSL para aula de Sishard
 
-1. Entrar no explorador de arquivos e clicar no ícone do Linux (caso não tenha este ícone, rodar ```wsl —install``` no terminal do Windows) para garantir que apenas o docker-desktop está instalado como distribuição no WSL. Caso mais alguma esteja instalada, usar o comando: ```wsl --unregister <Distribution Name>```, para desinstalar a distribuição. 
+1. Entrar no explorador de arquivos e clicar no ícone do Linux (caso não tenha este ícone, rodar ```wsl --install``` no terminal do Windows) para garantir que apenas o docker-desktop está instalado como distribuição no WSL. Caso mais alguma esteja instalada, usar o comando: ```wsl --unregister <Distribution Name>```, para desinstalar a distribuição. 
 
 2. No Terminal do Windows escrever: ```wsl -l -o```, para ver as distribuições disponíveis para instalação.
 
