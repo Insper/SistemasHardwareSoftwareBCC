@@ -28,8 +28,8 @@ nav:
     - "06 - Condicionais e funções": aulas/06-condicionais-funcoes/index.md
     - "07 - Loops": aulas/07-loops/index.md
     - "08 - Variáveis locais": aulas/08-variaveis-locais/index.md
-    # - "09 - Array em Assembly": aulas/09-arrays/index.md
-    # - "10 - Revisão para a AI": aulas/10-revisao-AI/index.md
+    - "09 - Array em Assembly": aulas/09-arrays/index.md
+    - "10 - Revisão para a AI": aulas/10-revisao-AI/index.md
     # - "11 - Processos": aulas/11-processos/index.md
     # - "12 - Carregamento de programas": aulas/12-exec/index.md
     # - "13 - Entrada/Saída": aulas/13-entrada-saida/index.md
