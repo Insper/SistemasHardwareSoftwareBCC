@@ -30,7 +30,7 @@ nav:
     - "08 - Variáveis locais": aulas/08-variaveis-locais/index.md
     - "09 - Array em Assembly": aulas/09-arrays/index.md
     - "10 - Revisão para a AI": aulas/10-revisao-AI/index.md
-    # - "11 - Processos": aulas/11-processos/index.md
+    - "11 - Processos": aulas/11-processos/index.md
     # - "12 - Carregamento de programas": aulas/12-exec/index.md
     # - "13 - Entrada/Saída": aulas/13-entrada-saida/index.md
     # - "14 - Enviando sinais": aulas/14-sinais-I/index.md
@@ -42,7 +42,7 @@ nav:
     # - "20 - Questões de revisão": aulas/20-questoes-de-revisao/index.md
   - Labs:
     - "Hackerlab": labs/hackerlab.md
-    # - "Lab processos": labs/processos.md
+    - "Lab processos": labs/processos.md
     # - "Lab threads": labs/threads.md
   - Referências e links:
     - "SisHardTutor: o Bot de IA da nossa disciplina": dicas/SisHardTutor.md
