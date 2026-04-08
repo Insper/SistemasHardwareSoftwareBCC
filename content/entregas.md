@@ -14,8 +14,8 @@ Cada tarefa detalha como sua submissão deve ser feita. Geralmente, basta enviar
 | 13/03 | Atv05-loops | Github | 20/03 23h59 |
 | 01/04 | Atv08-processos | Github | 08/04 23h59 |
 | 01/04 | **Lab02-processos** | Github | 24/04  23h59 |
-<!--| 13/10 | Atv09-exec | Github | 22/10 23h59 |
-| 15/10 | Atv10-entrada-saida | Github | 22/10 23h59 |
+| 08/04 | Atv09-exec | Github | 15/04 23h59 |
+<!--| 15/10 | Atv10-entrada-saida | Github | 22/10 23h59 |
 | 13/03 | Atv06-variaveis-locais | Github | 20/03 23h59 |
 | 17/03 | Atv07-arrays | Github | 23/03 23h59 |
 | 20/03 | Atv08-malloc | Github | 27/03 23h59 |
