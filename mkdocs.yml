@@ -39,7 +39,7 @@ nav:
     - "17 - Sincronização com Mutex": aulas/17-sincronizacao/index.md
     - "18 - Semáforos": aulas/18-semaforos/index.md
     - "19 - Semáforos II e Modelos de concorrência": aulas/19-semaforos-II/index.md
-    # - "20 - Questões de revisão": aulas/20-questoes-de-revisao/index.md
+    - "20 - Questões de revisão": aulas/20-questoes-de-revisao/index.md
   - Labs:
     - "Hackerlab": labs/hackerlab.md
     - "Lab processos": labs/processos.md
