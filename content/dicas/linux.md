@@ -1,5 +1,28 @@
 # Linux: Instalação e configuração 
 
+## Caso você use Linux mas não exatamente a versão que precisaremos usar
+
+Calma! Você não precisará reinstalar seu sistema operacional Linux (inclusive eu uso uma versão mais nova do Ubuntu). Para isso instale o Distrobox; ele use contêiner para lhe fornecer qualquer outra distribuição Linux a partir da que está instalada.
+
+Acesse [https://distrobox.it/](https://distrobox.it/).
+
+Você pode instalar pelo gerenciador de pacotes de sua distribuição (preferível) ou baixando-o por wget ou curl. Uma dependência importante que precisa estar instalada é um gerenciador de contêineres, como podman, docker ou lilipod. 
+Após a instalação, crie o contêiner:
+
+`distrobox create -i ubuntu:22.04`
+
+Use o comando:
+
+`distrobox list`
+
+para listar todos os seus contêineres.
+
+E para usar um contêiner, use o comando **enter**, seguido do nome dele:
+
+`distrobox enter ubuntu-22-04`
+
+E pronto!
+
 ## Download e particionar
 
 Para fazer o download do Linux Ubuntu 22.04.5 LTS acesse o link [https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/), e [nesse VÍDEO](https://www.youtube.com/watch?v=VK4eCi7ktCE) explica como fazer dual boot de uma máquina com Windows e Linux.

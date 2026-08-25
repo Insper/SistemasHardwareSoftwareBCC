@@ -2,14 +2,14 @@
 
 * **Professor**: Carlos Menezes (e-mail: **carlosedm@insper.edu.br**)
 
-* **Ninja**: Daniel Juho Kim
+* **Ninjas**: Daniel Juho Kim e Marcelo Peñas
 
 
 ## Aulas
 
 - **Quartas-feiras**: 16:30 às 18:30 (Sala 514)
 - **Sextas-feiras**:  14:15 às 16:15 (Sala 514)
-- Atendimento **Sextas-feiras** 16:15 às 17:45 (Sala 514)
+- Atendimento **Quartas-feiras** 14:45 às 16:15 (Sala 514)
 
 ## Instrumentos avaliativos
 
