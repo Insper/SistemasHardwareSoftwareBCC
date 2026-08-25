@@ -1,3 +1,3 @@
-long soma_a_b_2c (long a, long b, long c) {
+long misterio1(long a, long b, long c) {
     return a + b + 2*c;
 }

@@ -99,6 +99,13 @@ body {
   margin: 4rem 0 1rem;
 }
 
+.md-typeset.md-typeset h3 {
+  color: #404040;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 .md-typeset.md-typeset p {
   margin-bottom: 1rem;
 }
@@ -221,6 +228,7 @@ html .md-typeset.md-typeset details > :last-child {
 }
 
 @media screen and (max-width: 55rem) {
+
   .md-content {
     margin-top: 0;
     margin-bottom: 0;
@@ -281,16 +289,6 @@ html .md-typeset.md-typeset details > :last-child {
   pre {
     overflow-x: hidden;
     page-break-inside: avoid;
-  }
-
-  blockquote {
-    border: 2.25px solid #000000;
-    box-shadow: none;
-    line-height: 1.15;
-    min-height: 1rem;
-    padding: 0.5rem;
-    page-break-inside: avoid;
-    text-align: center;
   }
 
   .md-typeset.md-typeset .admonition,
@@ -629,3 +627,40 @@ hr.content-footer-sep {
   }
 }
 /* End contributors */
+
+
+
+section.progress-section {
+  display: none;
+}
+
+.md-content section.progress-section:first-child, .md-content section.progress-section.show {
+  display: block;
+} 
+
+.admonition.question .form-elements, .admonition.exercise .form-elements {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 0.5rem;
+}
+
+.admonition.question .form-elements * {
+  margin-top: 0.5rem;
+}
+
+.admonition.question .form-elements input[type="text"] {
+  border: 1px solid var(--md-primary-fg-color);
+}
+
+.admonition.question input[type="submit"], .admonition.question input[type="button"], .admonition.exercise input[type="submit"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  align-self: flex-end;
+
+  background-color: var(--md-primary-fg-color);
+  color: white;
+}

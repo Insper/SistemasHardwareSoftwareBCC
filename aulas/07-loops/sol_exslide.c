@@ -1,3 +1,6 @@
+// para compilar use:
+// gcc -Og -c sol_exslide.c -o sol_exslide.o
+
 /* Argumentos
 edi int a
 esi int b

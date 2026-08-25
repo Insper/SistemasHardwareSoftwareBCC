@@ -1,691 +1,316 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-        <meta name="author" content="Carlos Menezes">
-      
-      
-        <link rel="canonical" href="https://insper.github.io/SistemasHardwareSoftwareBCC/sobre/">
-      
-      
-        <link rel="prev" href="..">
-      
-      
-        <link rel="next" href="../aulas/01-inteiros/">
-      
-      
-      <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.33">
-    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Entregas e Prazos - Sistemas Hardware-Software - 2024/2</title>
+        <title>Sobre - Sistemas Hardware-Software BCC - 2026/2</title>
       
     
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
-      
-      
-
-
-    
-    
-      
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
-    
-      <link rel="stylesheet" href="../css/termynal.css">
-    
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
-
-    
-    
-    
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:700|Oxygen+Mono|Source+Sans+Pro:700|Source+Serif+Pro&amp;display=swap">
-<link rel="stylesheet" href="../assets/css/devlife.css">
-
-
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:700|Oxygen+Mono|Source+Sans+Pro:700|Source+Serif+Pro&amp;display=swap">
+    <link rel="stylesheet" href="../assets/css/main.css">
     <script>
-        window.ihandout_config = JSON.parse(`{"report": {"api-base": "https://devlife.insper-comp.com.br/api/offerings/1/", "url": "https://devlife.insper-comp.com.br/api/offerings/1/exercises/"}}`);
+      // SETUP GLOBAL CONSTANTS
+      var base_url = '..';
+      
+      var telemetryEnabled = false;
+      var backendUrl = "";
+      var courseSlug = "";
+      
+      
+      var dashboardEnabled = false;
+      var tagTree = {};
+      
+
+      // SETUP PLUGIN
+      window.initialized = false;
+      if (!window.initializers) window.initializers = [];
+      window.registerInitializer = (initialize) => {
+        if (window.initialized) initialize();
+        else window.initializers.push(initialize);
+      };
     </script>
-
-
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="https://unpkg.com/hyperscript.org"></script>
+    <script src="https://unpkg.com/htmx.org@1.8.4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+    
+    <link rel="stylesheet" href="../css/termynal.css">
   </head>
-  
-  
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="brown" data-md-color-accent="amber">
-  
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#aulas" class="md-skip">
-          Skip to content
+  <body>
+    <div class="ah-main-container">
+      <header class="ah-header">
+        <button class="ah-menu-btn ah-button ah-button--borderless"
+                aria-label="toggle menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+  <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+</svg>
+        </button>
+        <a href=".."
+           title="Sistemas Hardware-Software BCC - 2026/2"
+           class="ah-logo"
+           aria-label="Sistemas Hardware-Software BCC - 2026/2">
+          Sistemas Hardware-Software BCC - 2026/2
         </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-    
-      
+        <div class="ah-header--right">
+          
+          
+          
+          <button id="resetHandoutButton">
+            <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+  <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
+</svg></span>
+          </button>
+          
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Sistemas Hardware-Software - 2024/2" class="md-header__button md-logo" aria-label="Sistemas Hardware-Software - 2024/2" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
-
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            Sistemas Hardware-Software - 2024/2
-          </span>
+          
         </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
+      </header>
+      <nav class="ah-navigation preload">
+        <div class="ah-nav-container">
+          <button class="ah-menu-btn ah-button ah-button--borderless close-menu"
+                  aria-label="close menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+  <path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/>
+</svg>
+          </button>
+          <ul class="ah-nav-body">
             
-              Entregas e Prazos
+              
+  
+    <li>
+      <a href="..">Home</a>
+    </li>
+  
+
             
-          </span>
+              
+  
+
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">Sobre</span>
+      <ul>
+        
+          
+            
+            
+              <li class="ah-toc-item">
+                <a href="#aulas">Aulas</a>
+              </li>
+            
+              <li class="ah-toc-item">
+                <a href="#instrumentos-avaliativos">Instrumentos avaliativos</a>
+              </li>
+            
+              <li class="ah-toc-item">
+                <a href="#datas-provas">Datas provas</a>
+              </li>
+            
+              <li class="ah-toc-item">
+                <a href="#criterios-de-avaliacao">Critérios de avaliação</a>
+              </li>
+            
+        
+      </ul>
+    </li>
+  
+
+            
+              
+  
+    <li>
+      <a href="../entregas/">Entregas</a>
+    </li>
+  
+
+            
+              
+  <li class="ah-togglable-item">
+    <span class="ah-togglable-handle">Aulas</span>
+    <ul>
+      
+        
+  
+    <li>
+      <a href="../aulas/01-inteiros/">01 - Inteiros na CPU</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../aulas/02-ram/">02 - Representação de dados em RAM</a>
+    </li>
+  
+
+      
+    </ul>
+  </li>
+
+            
+              
+  <li class="ah-togglable-item">
+    <span class="ah-togglable-handle">Labs</span>
+    <ul>
+      
+        
+  
+    <li>
+      <a href="../labs/hackerlab/">Hackerlab</a>
+    </li>
+  
+
+      
+    </ul>
+  </li>
+
+            
+              
+  <li class="ah-togglable-item">
+    <span class="ah-togglable-handle">Referências e links</span>
+    <ul>
+      
+        
+  
+    <li>
+      <a href="../dicas/SisHardTutor/">SisHardTutor: o Bot de IA da nossa disciplina</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../dicas/DicasLinks/">Dicas e links</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../dicas/github/">Configuração github</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../dicas/linux/">Linux: Instalação e configuração</a>
+    </li>
+  
+
+      
+    </ul>
+  </li>
+
+            
+          </ul>
         </div>
-      </div>
-    </div>
-    
-      
-    
-    
-    
-    
-    
-      <div class="md-header__source">
-        <a href="https://github.com/Insper/SistemasHardwareSoftwareBCC/" title="Go to repository" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
-  </div>
-  <div class="md-source__repository">
-    sistemashardwaresoftware
-  </div>
-</a>
-      </div>
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
+      </nav>
+      <main class="ah-content ah-typeset">
         
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Sistemas Hardware-Software - 2024/2" class="md-nav__button md-logo" aria-label="Sistemas Hardware-Software - 2024/2" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
-
-    </a>
-    Sistemas Hardware-Software - 2024/2
-  </label>
-  
-    <div class="md-nav__source">
-      <a href="https://github.com/Insper/SistemasHardwareSoftwareBCC/" title="Go to repository" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
-  </div>
-  <div class="md-source__repository">
-    sistemashardwaresoftware
-  </div>
-</a>
-    </div>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Home
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Entregas e Prazos
-  </span>
-  
-
-      </a>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Aulas
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Aulas
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
+          <div class="ah-title-box">
+            <ul class="ah-breadcrumbs">
               
                 
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../aulas/01-inteiros/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    01 - Inteiros na CPU
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
+                <li></li>
+            </ul>
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../aulas/02-ram/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    02 - Representação de dados em RAM
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../aulas/03-arquitetura-x86/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    03 - Arquitetura x86-64
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
+          </div>
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Labs
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            Labs
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../labs/hackerlab/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Hackerlab
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Dicas
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            Dicas
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../outros/github/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Github Password
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../outros/vbox/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Virtualbox
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-  
-  
-
-
-<h1 id="aulas">Aulas<a class="headerlink" href="#aulas" title="Permanent link">&para;</a></h1>
+            <section class="progress-section show">
+<h1 id="sistemas-hardware-software-bcc">Sistemas Hardware-Software BCC</h1>
 <ul>
-<li>QUA 15:45 - 17:45</li>
 <li>
-<p>SEX 15:45 - 17:45</p>
+<p><strong>Professor</strong>: Carlos Menezes (e-mail: <strong><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#97;&#114;&#108;&#111;&#115;&#101;&#100;&#109;&#64;&#105;&#110;&#115;&#112;&#101;&#114;&#46;&#101;&#100;&#117;&#46;&#98;&#114;">&#99;&#97;&#114;&#108;&#111;&#115;&#101;&#100;&#109;&#64;&#105;&#110;&#115;&#112;&#101;&#114;&#46;&#101;&#100;&#117;&#46;&#98;&#114;</a></strong>)</p>
 </li>
 <li>
-<p>Atendimento: SEX 14:15 - 15:45</p>
+<p><strong>Ninjas</strong>: Daniel Juho Kim e Marcelo Peñas</p>
 </li>
 </ul>
-<h1 id="entregas-de-atividades-e-labs">Entregas de Atividades e Labs<a class="headerlink" href="#entregas-de-atividades-e-labs" title="Permanent link">&para;</a></h1>
-<table>
-<thead>
-<tr>
-<th>Data início</th>
-<th>Atividade/Lab</th>
-<th>Como entregar</th>
-<th>Prazo</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>16/08</td>
-<td>Instalação</td>
-<td>Sem entrega, apenas instale o Ubuntu 22.04!</td>
-<td>23/08</td>
-</tr>
-<tr>
-<td>21/08</td>
-<td>01-inteiros</td>
-<td>Github (Lembre de <a href="https://classroom.github.com/a/NUjY7tNw">Criar repo</a> e <a href="https://insper.github.io/SistemasHardwareSoftwareBCC/outros/tutorial_servidor_testes.pdf">Configurar webhook</a>)</td>
-<td>28/08 23h59</td>
-</tr>
-<tr>
-<td>23/08</td>
-<td>02-intro-gdb</td>
-<td>Github</td>
-<td>04/09 23h59</td>
-</tr>
-<tr>
-<td>30/08</td>
-<td>03-funcoes</td>
-<td>Github</td>
-<td>11/09 23h59</td>
-</tr>
-</tbody>
-</table>
-<!-- | 06/09 | 01-hackerlab | Github | 01/10 23h59 |
-| 15/09 | 04-condicionais-funcoes | Github | 20/09 23h59 |
-| 20/09 | 05-loops | Github | 27/09 23h59 |
-| 20/09 | 06-variaveis-locais | Github | 27/09 23h59 |
-| 29/09 | 07-arrays | Github | 04/10 23h59 |
-| 04/10 | 08-processos | Github | 09/10 23h59 |
-| 06/10 | 09-exec | Github | 16/10 23h59 |
-| 11/10 | 10-entrada-saida | Github | 18/10 23h59 |
-| 18/10 | 02-web-downloader | Github | 01/11 23h59 |
-| 25/10 | 11-threads | Github | 29/10 23h59 |
-| 01/11 | 12-barrier | Github | 08/11 23h59 |
-| 01/11 | 03-sort-merge | Github | 15/11 23h59 |
- -->
-
-<h1 id="provas">Provas<a class="headerlink" href="#provas" title="Permanent link">&para;</a></h1>
+<h2 id="aulas">Aulas</h2>
 <ul>
-<li><strong>Labs de C</strong>: final da primeira semana</li>
-<li><strong>AI</strong>: <a href="https://www.insper.edu.br/portaldoprofessor/ciencia-da-computacao/">https://www.insper.edu.br/portaldoprofessor/ciencia-da-computacao/</a></li>
-<li><strong>AF</strong>: <a href="https://www.insper.edu.br/portaldoprofessor/ciencia-da-computacao/">https://www.insper.edu.br/portaldoprofessor/ciencia-da-computacao/</a></li>
-<li><strong>SUB</strong>: <a href="https://www.insper.edu.br/portaldoprofessor/ciencia-da-computacao/">https://www.insper.edu.br/portaldoprofessor/ciencia-da-computacao/</a></li>
+<li><strong>Quartas-feiras</strong>: 16:30 às 18:30 (Sala 514)</li>
+<li><strong>Sextas-feiras</strong>:  14:15 às 16:15 (Sala 514)</li>
+<li>Atendimento <strong>Quartas-feiras</strong> 14:45 às 16:15 (Sala 514)</li>
 </ul>
+<h2 id="instrumentos-avaliativos">Instrumentos avaliativos</h2>
+<p>A avaliação da disciplina será composta por Avaliações (<code>AI</code> e <code>AF</code>), laboratórios (<code>Lab</code>), atividades de acompanhamento (<code>Atv</code>) e nota na prova do Mutirão C (<code>MC</code>):</p>
+<ul>
+<li><code>AI</code> e <code>AF</code>: Avaliações Intermediária (<code>AI</code>) e Final (<code>AF</code>) serão compostas por exercícios práticos a serem feitos durante o tempo de prova;</li>
+<li><code>Lab</code>: Os Laboratórios serão disponibilizados neste site</li>
+<li><code>Atv</code>: Atividades práticas desenvolvidas durante e após as aulas.</li>
+<li><code>MC</code>: Prova aplicada no final da primeira semana de aula.</li>
+</ul>
+<h2 id="datas-provas">Datas provas</h2>
+<ul>
+<li><strong>Multirão C</strong>: final da primeira semana</li>
+<li><strong>AI</strong>: a definir</li>
+<li><strong>AF</strong>: a definir</li>
+<li><strong>SUB</strong>: a definir (<strong>Todo o conteúdo da avaliação que será substituída</strong>)</li>
+</ul>
+<h2 id="criterios-de-avaliacao">Critérios de avaliação</h2>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>NS = 0,10*Atv + 0,20*AI + 0,30*AF + 0,40*Lab
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>NC = 0,10*Atv + 0,20*AI + 0,30*AF + 0,35*Lab + 0,05*MC
+</code></pre></div>
+<p>Para aprovação as <strong>CONDIÇÕES</strong> abaixo devem ser atendidas:</p>
+<div class="language-text highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>((AI + AF) / 2) &gt;= 4,0 E
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>AI e AF &gt;= 3,5 E
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>Lab &gt;= 5,0 
+</code></pre></div>
+<p>A média final (<code>MF</code>) é calculada com a seguinte fórmula</p>
+<p>Se <strong>atendida</strong> às <strong>CONDIÇÕES</strong>:
+   <code>MF = max(NS, NC)</code></p>
+<p>Se <strong>NÃO atendida</strong> às <strong>CONDIÇÕES</strong>:
+   <code>MF = min(Atv, AI, AF, Lab, MC)</code></p>
 
 
-
-
-
-
-
-  
-    
-  
-  
-
-
-  <aside class="md-source-file">
-    
-      
-  <span class="md-source-file__fact">
-    <span class="md-icon" title="Last update">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
-    </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 30, 2024</span>
-  </span>
-
-    
-    
-    
-    
-  </aside>
-
-
-
-
-
-                
-              </article>
-            </div>
+</section>
           
-          
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
-        </div>
         
       </main>
-      
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
-      
-    </div>
-  </div>
-</footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
+      <footer class="ah-footer ah-typeset">
+        <div class="ah-footer-nav">
+          
+            <a href=".."
+               class="ah-prev"
+               title="Home">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">Home</span>
+            </a>
+          
+          
+            <a href="../entregas/"
+               class="ah-next"
+               title="Entregas">
+              <span class="nav-label">Next</span>
+              <span class="nav-title">Entregas</span>
+            </a>
+          
+        </div>
+      </footer>
     </div>
     
-    
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-    
-    
-      <script src="../assets/javascripts/bundle.af256bd8.min.js"></script>
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.0.0/js-yaml.min.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/gh/insper-education/active-handout-plugins-js@main/package/plugin-bundle.js"></script>
-      
-        <script src="../js/termynal.js"></script>
-      
-        <script src="../js/custom.js"></script>
-      
-        <script src="../search/main.js"></script>
-      
+      <script src="../js/tabs.js"></script><script src="../js/termynal.js"></script><script src="../js/custom.js"></script>
     
   </body>
 </html>
