@@ -299,7 +299,7 @@
 <p>O registrador <code>%edi</code> armazena o valor da variável <code>int a</code> e o registrador <code>%rsi</code> representa o argumento  <code>int *b</code>, e por fim, o retorno da função, variável <code>int c</code>, é armazenado na variável <code>%eax</code>.</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/03-arquitetura-x86/short_4" id="short_4_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/03-arquitetura-x86/short_4" id="short_4_0">
 <p class="admonition-title">Exercise 4<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Use o comando <code>break funcao1</code> para parar a execução do programa quando a função <code>funcao1</code> começar a executar. Execute o programa usando <code>run</code>. O quê ocorre?</p>
@@ -345,7 +345,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/03-arquitetura-x86/short_6" id="short_6_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/03-arquitetura-x86/short_6" id="short_6_0">
 <p class="admonition-title">Exercise 6<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>O comando <code>stepi</code> executa exatamente uma instrução de máquina. Use-o uma vez e execute novamente <code>disas funcao1</code>. O que aconteceu? É possível saber em qual instrução o programa está parado?</p>
@@ -375,7 +375,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/03-arquitetura-x86/short_7" id="short_7_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/03-arquitetura-x86/short_7" id="short_7_0">
 <p class="admonition-title">Exercise 7<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Cheque novamente o valor de <code>%edi</code>. Este valor condiz com a instrução executada? O que ela faz, exatamente?</p>
@@ -390,7 +390,7 @@
 <p>A instrução <code>mov %edi,%eax</code> move o valor de <code>%edi</code> para <code>%eax</code>, em seguida, a instrução <code>add (%rsi),%eax</code> adiciona o conteúdo apontado pelo registrador <code>%rsi</code> ao registrador <code>%eax</code>, pois <code>%rsi</code> é um ponteiro.</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/03-arquitetura-x86/short_8" id="short_8_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/03-arquitetura-x86/short_8" id="short_8_0">
 <p class="admonition-title">Exercise 8<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Use <code>stepi</code> para parar logo antes do retorno da função. Verifique o conteúdo do registrador <code>%eax</code> e compare-o com os prints feitos pelo program. Você consegue dizer seu uso?</p>
@@ -479,7 +479,7 @@
 <p>A instrução <code>mov 0x2ea1(%rip),%eax</code> faz <strong>leitura</strong> do valor da variável global <code>times_called</code> representado pelo endereço <code>0x2ea1(%rip)</code>, a instrução <code>mov %eax,0x2e98(%rip)</code> faz a <strong>escrita</strong> do valor de <code>%eax</code> na variável global  <code>times_called</code>.</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/03-arquitetura-x86/short_10" id="short_10_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/03-arquitetura-x86/short_10" id="short_10_0">
 <p class="admonition-title">Exercise 14<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Qual o significado do registrador <code>%rip</code>? Se não se lembrar reveja os slides.</p>
@@ -527,7 +527,7 @@
 </div>
 </form>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/03-arquitetura-x86/short_12" id="short_12_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/03-arquitetura-x86/short_12" id="short_12_0">
 <p class="admonition-title">Exercise 17<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Use o comando <code>continue</code> para continuar o programa. Você deve estar agora na segunda execução de <code>funcao2</code>. Use o comando <code>x</code> para mostrar o valor armazenado na memória calculada acima. Lendo o código do programa, você consegue dizer qual variável é armazenada neste endereço? O valor atual é o esperado para a segunda execução de <code>funcao2</code>?</p>
