@@ -59,9 +59,9 @@ O WSL 2 é o tipo de distribuição padrão ao instalar uma distribuição do Li
 
 5. Usar os comando: ```sudo apt update``` e ```sudo apt upgrade``` para atualizar os pacotes do Ubuntu.
 
-6. Usar o comando: ```sudo apt-get gdb``` para instalar o **gdb**.
+6. Usar o comando: ```sudo apt install gdb``` para instalar o **gdb**.
 
-7. Usar o comando: ```git --version``` para verificar se o git está instalado. Caso não esteja, instalar usando: ```sudo apt-get install git```
+7. Usar o comando: ```git --version``` para verificar se o git está instalado. Caso não esteja, instalar usando: ```sudo apt install git```
 
 8. Configurar o **git** com os comandos: ```git config --global user.name "Seu nome"``` e ```git config --global user.email "seu-email"```
 
