@@ -56,7 +56,7 @@ O programa será avaliado de forma manual usando uma rubrica que descreve as fun
 
 ### Prazo:
 
-[Clique aqui!](../../sobre).
+[Clique aqui!](../sobre.md).
 
 ### Dicas:
 
