@@ -1647,10 +1647,10 @@
     }
   },
   "tags": {
-    "short-text": "short-text",
     "text-exercise": "text-exercise",
-    "choice-exercise": "choice-exercise",
     "long-text": "long-text",
-    "medium-text": "medium-text"
+    "medium-text": "medium-text",
+    "choice-exercise": "choice-exercise",
+    "short-text": "short-text"
   }
 }
