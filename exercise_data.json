@@ -1647,9 +1647,9 @@
     }
   },
   "tags": {
-    "text-exercise": "text-exercise",
-    "long-text": "long-text",
     "medium-text": "medium-text",
+    "long-text": "long-text",
+    "text-exercise": "text-exercise",
     "choice-exercise": "choice-exercise",
     "short-text": "short-text"
   }
