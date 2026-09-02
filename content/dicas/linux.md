@@ -1,12 +1,19 @@
 # Linux: Instalação e configuração 
 
-## Caso você use Linux mas não exatamente a versão que precisaremos usar
+Aqui temos dicas para configurar o ambiente de trabalho para você que usa:
+
+1. Uma distribuição Linux
+2. MacOS
+3. Windows
+
+
+## Caso você use Linux mas não exatamente a versão que precisaremos usar (Ubuntu 22.04)
 
 Calma! Você não precisará reinstalar seu sistema operacional Linux (inclusive eu uso uma versão mais nova do Ubuntu). Para isso instale o Distrobox; ele use contêiner para lhe fornecer qualquer outra distribuição Linux a partir da que está instalada.
 
 Acesse [https://distrobox.it/](https://distrobox.it/).
 
-Você pode instalar pelo gerenciador de pacotes de sua distribuição (preferível) ou baixando-o por wget ou curl. Uma dependência importante que precisa estar instalada é um gerenciador de contêineres, como podman, docker ou lilipod. 
+Você pode instalar pelo gerenciador de pacotes de sua distribuição (preferível) ou baixando-o por wget ou curl. Uma dependência importante que precisa estar instalada é um gerenciador de contêineres, como *podman*, *docker* ou *lilipod*. 
 Após a instalação, crie o contêiner:
 
 `distrobox create -i ubuntu:22.04`
@@ -23,31 +30,39 @@ E para usar um contêiner, use o comando **enter**, seguido do nome dele:
 
 E pronto!
 
-## Download e particionar
+## Caso você use um Mac
 
-Para fazer o download do Linux Ubuntu 22.04.5 LTS acesse o link [https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/), e [nesse VÍDEO](https://www.youtube.com/watch?v=VK4eCi7ktCE) explica como fazer dual boot de uma máquina com Windows e Linux.
+Você pode usar o software UTM, que é uma aplicação *open-source* de máquina virtual, baseada no projeto **QEMU**. Ele funciona tanto como virtualizador quanto como um emulador: [Download UTM](https://github.com/utmapp/UTM/releases/latest/download/UTM.dmg).
 
-## VM usando Virtualbox
+Alternativamente você pode usar o *codespace* do **Github**.
 
-### Shared Folder
+## Caso você use o Windows
+
+### a) Criando uma dupla partição (dual boot)
+
+Para fazer o download do Linux Ubuntu 22.04.5 LTS acesse o link [https://releases.ubuntu.com/jammy/](https://releases.ubuntu.com/jammy/), e [nesse VÍDEO](https://www.youtube.com/watch?v=VK4eCi7ktCE) explica como fazer *dual boot* de uma máquina com Windows e Linux.
+
+### b) VM usando Virtualbox
+
+#### Shared Folder
 
 Uma boa maneira de transferir arquivos entre a VM e a máquina hospedeira (ambas as direções) é criar uma pasta compartilhada no Virtualbox.
 
 Acesse [este LINK](https://carleton.ca/scs/tech-support/troubleshooting-guides/creating-a-shared-folder-in-virtualbox/) para mais informações!
 
-### Shared Clipboard
+#### Shared Clipboard
 
 Também é possível fazer com que algo copiado (CTRL + C) no sistema principal possa ser colado no Ubuntu (CTRL + V na máquina Virtual), e vice-versa!
 
 Procure no Google `virtualbox enable shared clipboard`.
 
-## WSL
+### c) WSL
 
 O Subsistema do Windows para Linux (WSL) é um recurso do Windows que permite executar um ambiente Linux em seu computador Windows, sem a necessidade de uma máquina virtual separada ou inicialização dupla ([Microsoft Learn](https://learn.microsoft.com/pt-br/windows/wsl/about)).
 O WSL 2 é o tipo de distribuição padrão ao instalar uma distribuição do Linux. O WSL 2 usa a tecnologia de virtualização para executar um kernel do Linux dentro de uma VM (máquina virtual) de utilitário leve. As distribuições do Linux são executadas como contêineres isolados dentro da VM gerenciada do WSL 2.
 [Como instalá-lo](https://learn.microsoft.com/pt-br/windows/wsl/install).
 
-### Passo a passo para configurar WSL para aula de Sishard
+#### Passo a passo para configurar WSL para aula de Sishard
 
 1. Entrar no explorador de arquivos e clicar no ícone do Linux (caso não tenha este ícone, rodar ```wsl --install``` no terminal do Windows) para garantir que apenas o docker-desktop está instalado como distribuição no WSL. Caso mais alguma esteja instalada, usar o comando: ```wsl --unregister <Distribution Name>```, para desinstalar a distribuição. 
 
