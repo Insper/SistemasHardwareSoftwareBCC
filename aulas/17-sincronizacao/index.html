@@ -250,7 +250,7 @@
 <p class="admonition-title">Example</p>
 <p>Abra o arquivo e analise seu conteúdo.</p>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_1" id="short_1_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_1" id="short_1_0">
 <p class="admonition-title">Exercise 1<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Qual o papel da função <code>soma_parcial</code>?  Explique o papel de cada atributo de <code>struct soma_parcial_args</code>.</p>
@@ -265,7 +265,7 @@
 <p>Soma parte de um array (alguns elementos). Nos argumentos, o <code>*vetor</code> representa um ponteiro para todos os elementos do array. Já <code>start</code> e <code>end</code> representam o range de posições as quais queremos somar. </p>
 </div>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_2" id="short_2_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_2" id="short_2_0">
 <p class="admonition-title">Exercise 2<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Como você setaria os atributos de <code>struct soma_partical_args</code> para obter a soma do vetor todo? E para obter somente a soma da primeira metade do vetor?</p>
@@ -288,7 +288,7 @@
 <p class="admonition-title">Example</p>
 <p>Complete as partes faltantes e rode o programa. Ele dá os resultados esperados? Teste para valores de <code>n</code> incrementalmente maiores.</p>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_3" id="short_3_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_3" id="short_3_0">
 <p class="admonition-title">Exercise 3<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Os resultados acima estarão errados. Você consegue explicar por que?</p>
@@ -322,7 +322,7 @@
 
 </div>
 
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_4" id="short_4_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_4" id="short_4_0">
 <p class="admonition-title">Exercise 4<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Identifique no seu código quais linhas compõe a região crítica e onde deveriam estar as diretivas <code>lock</code> e <code>unlock</code>. Escreva abaixo suas concluões.</p>
@@ -342,7 +342,7 @@
 <p>Coloque um comentário nas linhas identificadas acima.</p>
 </div>
 <p>Já sabemos onde iremos colocar as operações de <code>lock</code> e <code>unlock</code> do mutex. Agora falta só criá-lo.</p>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_5" id="short_5_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_5" id="short_5_0">
 <p class="admonition-title">Exercise 5<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>O mutex precisa ser criado e inicializado. Onde isto deve ser feito? Como ele pode ser recebido pela função da thread?</p>
@@ -357,7 +357,7 @@
 <p>Podemos fazer isto na função <code>main</code>, antes da criação das threads. Para que ele seja recebido pela função, podemos criar um outro argumento na nossa <code>struct soma_parcial_args</code>!</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_6" id="short_6_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_6" id="short_6_0">
 <p class="admonition-title">Exercise 6<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Consulte o manual de <code>pthread_mutex_init</code> e escreva abaixo como criar e inicializar um mutex.</p>
@@ -374,7 +374,7 @@
 </code></pre></div></p>
 </div>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_7" id="short_7_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_7" id="short_7_0">
 <p class="admonition-title">Exercise 7<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Consulte o manual de <code>pthread_mutex_lock</code> e <code>pthread_mutex_unlock</code> e escreva abaixo como usá-las.</p>
@@ -396,7 +396,7 @@
 <p class="admonition-title">Example</p>
 <p>Com base nas suas respostas acima, conserte seu programa <code>soma_global.c</code> e verifique que ele retorna os resultados corretos.</p>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_8" id="short_8_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_8" id="short_8_0">
 <p class="admonition-title">Exercise 8<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Agora meça o tempo de execução e anote abaixo. Compare com o original (que não funcionava) e explique a diferença.</p>
@@ -425,7 +425,7 @@
 </div>
 <h2 id="economizando-mutex">Economizando <code>mutex</code></h2>
 <p>Nesta parte final iremos ver como diminuir o número de chamadas ao <code>mutex</code>.</p>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_9" id="short_9_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_9" id="short_9_0">
 <p class="admonition-title">Exercise 9<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>É necessário atualizar a variável global <code>soma</code> a cada iteração do <code>for</code>? E é possível atualizá-la somente uma vez por thread?</p>
@@ -445,7 +445,7 @@
 <p>Implemente a ideia acima e veja se houve melhora. Salve como <code>soma-global2.c</code>.</p>
 </div>
 <p>O exercício acima deverá ter desempenho bom, já que limitamos a quantidade de vezes que usamos o <code>mutex</code>. Vamos tentar outra ideia agora.</p>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_10" id="short_10_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_10" id="short_10_0">
 <p class="admonition-title">Exercise 10<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Precisamos da variável global? E se cada thread retornasse sua soma parcial? Como o programa poderia ser organizado para que essa ideia funcione?</p>
@@ -460,7 +460,7 @@
 <p>Cada thread poderia retornar na struct de argumentos o resultado de sua soma. Na função main, após cada reposta de conclusão da thread (retorno da <code>pthread_join</code>), poderíamos somar os resultados.</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/17-sincronizacao/short_11" id="short_11_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/17-sincronizacao/short_11" id="short_11_0">
 <p class="admonition-title">Exercise 11<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>A ideia acima precisou de <code>mutex</code>? Por quê?</p>

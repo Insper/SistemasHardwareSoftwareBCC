@@ -261,7 +261,7 @@
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="p">}</span>
 </code></pre></div>
 <p>Todo término inesperado de um programa em execução (processo) é feito usando um sinal. Ao acessar informações em um local de memória não mapeado para o nosso processo ele recebe o sinal <code>SIGSEGV</code>. Ao executar uma divisão por zero ele receberá o sinal <code>SIGFPE</code>. Logo, nestes casos é verdade que <code>WIFSIGNALED(status) == 1</code>, então podemos pegar o número do sinal usando a macro <code>WTERMSIG(status)</code>.</p>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/14-sinais-I/short_1" id="short_1_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/14-sinais-I/short_1" id="short_1_0">
 <p class="admonition-title">Exercise 1<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Leia o arquivo <em>parte1.c</em>. O que ele faz? Quantos processos são criados (conte o original)?</p>
@@ -313,7 +313,7 @@
 <p class="admonition-title">Example</p>
 <p>No segundo terminal, use a ferramenta de linha de comando <code>kill</code> para enviar o sinal <strong>SIGKILL</strong> para o processo filho. Se precisar, consulte a documentação usando <code>man 1 kill</code>.</p>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/14-sinais-I/short_2" id="short_2_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/14-sinais-I/short_2" id="short_2_0">
 <p class="admonition-title">Exercise 2<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Use <code>man 7 signal</code> para ver a lista de sinais disponíveis e seus números. Qual seria o número para o sinal <code>SIGINT</code>?</p>
@@ -343,7 +343,7 @@
 <p class="admonition-title">Example</p>
 <p>Faça uma cópia do arquivo <em>parte2.c</em> e salve como <em>parte3.c</em>. Modifique o novo arquivo para que o processo pai espere 10 segundos e envie um <strong>SIGKILL</strong> para o filho.</p>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/14-sinais-I/short_3" id="short_3_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/14-sinais-I/short_3" id="short_3_0">
 <p class="admonition-title">Exercise 3<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Agora os dois processos acabam? As informações de finalização no pai condizem com o sinal enviado?</p>
