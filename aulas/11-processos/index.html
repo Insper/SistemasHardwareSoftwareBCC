@@ -335,7 +335,7 @@ No filho <code>variavel</code> vale <code>10</code>.</p>
 </code></pre></div>
 <p>A primeira linha só deve ser mostrada uma vez pelo processo pai. Para verificar que seu programa funciona corretamente não se esqueça de contar quantos <code>printf</code> foram feitos. Se houver mais que 9 houve algum problema na sua solução.</p>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/11-processos/long_3" id="long_3_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/11-processos/long_3" id="long_3_0">
 <p class="admonition-title">Exercise 3<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>O programa abaixo termina? Explique sua resposta.</p>
@@ -374,7 +374,7 @@ Se ficou com dúvidas por que o bloco verdadeiro do <code>if</code> é executado
 
 <h2 id="as-chamadas-waitwaitpid">As chamadas <code>wait/waitpid</code></h2>
 <p>Um processo pode esperar seus filhos acabarem usando uma das chamadas <code>wait</code> ou <code>waitpid</code>. Esta chamada retorna um código numérico que representa a saída do programa (o que foi retornado pelo <code>main</code>) e um conjunto de flags que indica se houve término anormal. O código <strong>errado</strong> do último exercício tentava simular estas chamadas usando uma variável <code>rodando</code> e checando seu valor. A maneira correta de esperar um processo filho terminar é usando <code>wait</code> ou <code>waitpid</code>.</p>
-<div class="admonition exercise text medium tag-text-exercise tag-medium-text editable" data-slug="aulas/11-processos/medium_4" id="medium_4_0">
+<div class="admonition exercise text medium tag-medium-text tag-text-exercise editable" data-slug="aulas/11-processos/medium_4" id="medium_4_0">
 <p class="admonition-title">Exercise 4<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Pesquise como usar <code>wait</code> no manual. Escreva abaixo a assinatura da função. Qual é o valor retornado? O que é retornado na varíavel passada como ponteiro?</p>
