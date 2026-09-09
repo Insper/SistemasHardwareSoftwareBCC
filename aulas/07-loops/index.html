@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Index - Sistemas Hardware-Software BCC - 2026/2</title>
+        <title>07 - Loops - Sistemas Hardware-Software BCC - 2026/2</title>
       
     
     <link rel="stylesheet"
@@ -116,7 +116,7 @@
 
             
               
-  <li class="ah-togglable-item">
+  <li class="ah-togglable-item opened">
     <span class="ah-togglable-handle">Aulas</span>
     <ul>
       
@@ -156,6 +156,38 @@
   
     <li>
       <a href="../05-condicionais/">05 - Condicionais</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../06-condicionais-funcoes/">06 - Condicionais e funções</a>
+    </li>
+  
+
+      
+        
+  
+
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">07 - Loops</span>
+      <ul>
+        
+          
+            
+            
+              <li class="ah-toc-item">
+                <a href="#arquivo-ex1">Arquivo ex1</a>
+              </li>
+            
+              <li class="ah-toc-item">
+                <a href="#exercicios-para-entrega">Exercícios para entrega</a>
+              </li>
+            
+        
+      </ul>
     </li>
   
 
@@ -231,6 +263,10 @@
             <ul class="ah-breadcrumbs">
               
                 
+                  
+                    <li>Aulas</li>
+                  
+                
                 <li></li>
             </ul>
             
@@ -253,7 +289,7 @@
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">   </span><span class="err">0</span><span class="nf">x0679</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">15</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">ja</span><span class="w">     </span><span class="mh">0x671</span> <span class="p">&lt;</span><span class="no">soma_2n</span><span class="p">+</span><span class="mi">7</span><span class="p">&gt;</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">   </span><span class="err">0</span><span class="nf">x067b</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">17</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">repz</span><span class="w"> </span><span class="no">retq</span>
 </code></pre></div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_1" id="short_1_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_1" id="short_1_0">
 <p class="admonition-title">Exercise 1<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Localize no código acima as instruções de saltos (<code>jmp</code> ou condicionais <code>j*</code>). Desenhe setas indicando para qual linha do código elas pulam.</p>
@@ -268,7 +304,7 @@
 <p>Há um salto de <code>soma_2n &lt;+5&gt;</code> para <code>soma_2n &lt;+12&gt;</code> e outro de <code>soma_2n &lt;+15&gt;</code> para <code>soma_2n &lt;+7&gt;</code></p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_2" id="short_2_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_2" id="short_2_0">
 <p class="admonition-title">Exercise 2<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Analise o fluxo de saltos do seu código. Existe um loop? Entre quais linhas?</p>
@@ -327,7 +363,7 @@
 <p>Sempre comparamos o segundo em relação ao primeiro. Logo, fazemos <code>%edi &gt; 1</code>. A instrução <code>ja</code> representa a comparação <strong>jump above</strong>, que é uma comparação de <code>&gt;</code> feita entre variáveis <code>unsigned</code></p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_3" id="short_3_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_3" id="short_3_0">
 <p class="admonition-title">Exercise 4<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Com base na sua resposta acima, como você escreveria esse loop como um <code>while</code>?</p>
@@ -342,7 +378,7 @@
 <p>Considerando que o primeiro argumento da função se chama <code>int arg1</code>, seria <code>while(arg1 &gt; 1)</code>.</p>
 </div>
 </div>
-<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/07-loops/long_4" id="long_4_0">
+<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/07-loops/long_4" id="long_4_0">
 <p class="admonition-title">Exercise 5<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Comece fazendo uma versão <em>C</em> usando somente <code>if-goto</code></p>
@@ -372,7 +408,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/07-loops/long_5" id="long_5_0">
+<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/07-loops/long_5" id="long_5_0">
 <p class="admonition-title">Exercise 6<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Transforme a construção que você fez acima em um código usando <code>while</code>.</p>
@@ -422,7 +458,7 @@
 <a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">   </span><span class="err">0</span><span class="nf">x01d</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">29</span><span class="err">&gt;</span><span class="p">:</span><span class="w"> </span><span class="no">mov</span><span class="w">    </span><span class="nv">%rdx</span><span class="p">,</span><span class="nv">%rax</span>
 <a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">   </span><span class="err">0</span><span class="nf">x020</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">32</span><span class="err">&gt;</span><span class="p">:</span><span class="w"> </span><span class="no">ret</span><span class="w"> </span>
 </code></pre></div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_6" id="short_6_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_6" id="short_6_0">
 <p class="admonition-title">Exercise 7<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Desenhe as flechas indicando o destino de cada instrução de pulo (<code>jmp</code> ou <code>j*</code>).</p>
@@ -439,7 +475,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_7" id="short_7_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_7" id="short_7_0">
 <p class="admonition-title">Exercise 8<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Escreva abaixo o cabeçalho da função <code>soma_n</code>. <strong>Dica</strong>: procure por registradores que são lidos <em>antes</em> de serem escritos.</p>
@@ -456,7 +492,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text medium tag-medium-text tag-text-exercise editable" data-slug="aulas/07-loops/medium_8" id="medium_8_0">
+<div class="admonition exercise text medium tag-text-exercise tag-medium-text editable" data-slug="aulas/07-loops/medium_8" id="medium_8_0">
 <p class="admonition-title">Exercise 9<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Faça a tradução do código acima para <em>C</em> usando somente <code>if-goto</code></p>
@@ -473,7 +509,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text medium tag-medium-text tag-text-exercise editable" data-slug="aulas/07-loops/medium_9" id="medium_9_0">
+<div class="admonition exercise text medium tag-text-exercise tag-medium-text editable" data-slug="aulas/07-loops/medium_9" id="medium_9_0">
 <p class="admonition-title">Exercise 10<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Converta o código acima para uma versão legível em <em>C</em>.</p>
@@ -509,7 +545,7 @@
 <a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a><span class="w">   </span><span class="err">0</span><span class="nf">x02c</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">44</span><span class="err">&gt;</span><span class="p">:</span><span class="w"> </span><span class="no">mov</span><span class="w">    </span><span class="nv">%r8</span><span class="p">,</span><span class="nv">%rax</span>
 <a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a><span class="w">   </span><span class="err">0</span><span class="nf">x02f</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">47</span><span class="err">&gt;</span><span class="p">:</span><span class="w"> </span><span class="no">ret</span>
 </code></pre></div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_10" id="short_10_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_10" id="short_10_0">
 <p class="admonition-title">Exercise 11<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Quantos argumentos a função acima recebe? Quais seus tipos?</p>
@@ -527,7 +563,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_11" id="short_11_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_11" id="short_11_0">
 <p class="admonition-title">Exercise 12<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>A função retorna algum valor? Se sim, qual seu tipo?</p>
@@ -544,7 +580,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_12" id="short_12_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_12" id="short_12_0">
 <p class="admonition-title">Exercise 13<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>A função acima combina loops e condicionais. Desenhe setas para onde as instruções de <code>jmp</code> apontam.</p>
@@ -561,7 +597,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_13" id="short_13_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_13" id="short_13_0">
 <p class="admonition-title">Exercise 14<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Com base no exercício anterior, entre quais linhas o loop ocorre? E a condicional?</p>
@@ -578,7 +614,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_14" id="short_14_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_14" id="short_14_0">
 <p class="admonition-title">Exercise 15<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>O loop acima tem uma variável contadora. Ela está em qual registrador? Qual seu tipo?</p>
@@ -595,7 +631,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_15" id="short_15_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_15" id="short_15_0">
 <p class="admonition-title">Exercise 16<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Revise o funcionamento da instrução <code>idiv</code>. Em qual registrador é armazenado o resultado da divisão? E o resto?</p>
@@ -612,7 +648,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/07-loops/short_16" id="short_16_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/07-loops/short_16" id="short_16_0">
 <p class="admonition-title">Exercise 17<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Qual a condição testada na condicional?</p>
@@ -629,7 +665,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/07-loops/long_17" id="long_17_0">
+<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/07-loops/long_17" id="long_17_0">
 <p class="admonition-title">Exercise 18<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Escreva uma versão do código acima usando somente <code>if-goto</code>.</p>
@@ -646,7 +682,7 @@
 </code></pre></div>
 </div>
 </div>
-<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/07-loops/long_18" id="long_18_0">
+<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/07-loops/long_18" id="long_18_0">
 <p class="admonition-title">Exercise 19<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Escreva uma versão legível do código acima.</p>
@@ -672,6 +708,20 @@
       <footer class="ah-footer ah-typeset">
         <div class="ah-footer-nav">
           
+            <a href="../06-condicionais-funcoes/"
+               class="ah-prev"
+               title="06 - Condicionais e funções">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">06 - Condicionais e funções</span>
+            </a>
+          
+          
+            <a href="../../labs/hackerlab/"
+               class="ah-next"
+               title="Hackerlab">
+              <span class="nav-label">Next</span>
+              <span class="nav-title">Hackerlab</span>
+            </a>
           
         </div>
       </footer>

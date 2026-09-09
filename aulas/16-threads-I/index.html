@@ -160,6 +160,22 @@
   
 
       
+        
+  
+    <li>
+      <a href="../06-condicionais-funcoes/">06 - Condicionais e funções</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../07-loops/">07 - Loops</a>
+    </li>
+  
+
+      
     </ul>
   </li>
 
@@ -295,7 +311,7 @@
 </div>
 
 <p>Assim como processos, threads são escalonadas pelo kernel. Isto significa que <strong>não controlamos a ordem em que elas rodam</strong> no nosso programa. Ou seja, ao executar <code>pthread_create</code> não sabemos se a thread principal (aquela que roda o <code>main</code>) continuará rodando ou se o controle passará instantaneamente para a nova thread. A primitiva de <strong>sincronização</strong> mais simples que dispomos é <code>pthread_join</code>, que garante que uma thread só prossegue quando outra acabar.</p>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/16-threads-I/short_1" id="short_1_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/16-threads-I/short_1" id="short_1_0">
 <p class="admonition-title">Exercise 1<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Retire o <code>pthread_join</code> do programa exemplo e o execute. Repita a execução várias vezes. Todas as vezes o resultado é o mesmo? O que acontece?</p>
@@ -310,7 +326,7 @@
 <p>Não. Como a <code>main</code> pode chegar no <code>return 0</code>, então o processo pode acabar sem que a thread tenha sido devidamente executada.</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/16-threads-I/short_2" id="short_2_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/16-threads-I/short_2" id="short_2_0">
 <p class="admonition-title">Exercise 2<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>É possível que duas threads chamem <code>pthread_join</code> na mesma thread destino? Consulte o manual para saber esta resposta.</p>
@@ -353,7 +369,7 @@
 <p><code>int *i = (int *) arg;</code></p>
 </blockquote>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/16-threads-I/short_3" id="short_3_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/16-threads-I/short_3" id="short_3_0">
 <p class="admonition-title">Exercise 3<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Explique a utilização da variável <code>i</code> na tarefa acima.</p>
@@ -373,7 +389,7 @@
 <p class="admonition-title">Warning</p>
 <p>Se tiver problemas, valide seu código com algum colega que já tenha sido validado pelo professor. Se não tiver ninguém por perto já validado me chame ;)</p>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/16-threads-I/short_4" id="short_4_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/16-threads-I/short_4" id="short_4_0">
 <p class="admonition-title">Exercise 4<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Explique como é feita a passagem do argumento para a thread.</p>
@@ -388,7 +404,7 @@
 <p>A thread recebe o endereço da respectiva posição do array alocado dinâmicamente.</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/16-threads-I/short_5" id="short_5_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/16-threads-I/short_5" id="short_5_0">
 <p class="admonition-title">Exercise 5<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Passamos para a thread um valor alocado dinamicamente. Por que isso é necessário?</p>
@@ -408,7 +424,7 @@
 <p class="admonition-title">Warning</p>
 <p>Cada exercício foca em um problema diferente. A resposta não é a mesma para ambas.</p>
 </div>
-<div class="admonition exercise text medium tag-medium-text tag-text-exercise editable" data-slug="aulas/16-threads-I/medium_6" id="medium_6_0">
+<div class="admonition exercise text medium tag-text-exercise tag-medium-text editable" data-slug="aulas/16-threads-I/medium_6" id="medium_6_0">
 <p class="admonition-title">Exercise 6<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Identifique um problema de escopo de dados no código abaixo (arquivo <em>parte2-1.c</em>)</p>
@@ -435,7 +451,7 @@
 <p>Com threads, não tenho como garantir a ordem de escalonamento (nem qual thread o sistema operacional vai escolher para execução, nem em qual ordem). Assim, a thread da <code>main</code> altera o valor da variável <code>i</code> e quando cada thread executa, o valor recuperado é diferente do esperado.</p>
 </div>
 </div>
-<div class="admonition exercise text medium tag-medium-text tag-text-exercise editable" data-slug="aulas/16-threads-I/medium_7" id="medium_7_0">
+<div class="admonition exercise text medium tag-text-exercise tag-medium-text editable" data-slug="aulas/16-threads-I/medium_7" id="medium_7_0">
 <p class="admonition-title">Exercise 7<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Identifique um problema de escopo de dados no código abaixo (arquivo <em>parte2-2.c</em>)</p>
