@@ -683,15 +683,15 @@
       },
       "medium_8": {
         "tags": [
-          "text-exercise",
-          "medium-text"
+          "medium-text",
+          "text-exercise"
         ],
         "slug": "aulas/07-loops/medium_8"
       },
       "medium_9": {
         "tags": [
-          "text-exercise",
-          "medium-text"
+          "medium-text",
+          "text-exercise"
         ],
         "slug": "aulas/07-loops/medium_9"
       },
@@ -1132,8 +1132,8 @@
       },
       "medium_4": {
         "tags": [
-          "text-exercise",
-          "medium-text"
+          "medium-text",
+          "text-exercise"
         ],
         "slug": "aulas/11-processos/medium_4"
       },
@@ -1276,8 +1276,8 @@
       },
       "medium_10": {
         "tags": [
-          "text-exercise",
-          "medium-text"
+          "medium-text",
+          "text-exercise"
         ],
         "slug": "aulas/13-entrada-saida/medium_10"
       }
@@ -1329,8 +1329,8 @@
       },
       "medium_4": {
         "tags": [
-          "text-exercise",
-          "medium-text"
+          "medium-text",
+          "text-exercise"
         ],
         "slug": "aulas/15-sinais-II/medium_4"
       },
@@ -1428,15 +1428,15 @@
       },
       "medium_6": {
         "tags": [
-          "text-exercise",
-          "medium-text"
+          "medium-text",
+          "text-exercise"
         ],
         "slug": "aulas/16-threads-I/medium_6"
       },
       "medium_7": {
         "tags": [
-          "text-exercise",
-          "medium-text"
+          "medium-text",
+          "text-exercise"
         ],
         "slug": "aulas/16-threads-I/medium_7"
       }
@@ -1625,15 +1625,15 @@
       },
       "medium_2": {
         "tags": [
-          "text-exercise",
-          "medium-text"
+          "medium-text",
+          "text-exercise"
         ],
         "slug": "aulas/20-questoes-de-revisao/medium_2"
       },
       "medium_3": {
         "tags": [
-          "text-exercise",
-          "medium-text"
+          "medium-text",
+          "text-exercise"
         ],
         "slug": "aulas/20-questoes-de-revisao/medium_3"
       },
@@ -1647,10 +1647,10 @@
     }
   },
   "tags": {
-    "long-text": "long-text",
+    "medium-text": "medium-text",
     "short-text": "short-text",
     "text-exercise": "text-exercise",
-    "choice-exercise": "choice-exercise",
-    "medium-text": "medium-text"
+    "long-text": "long-text",
+    "choice-exercise": "choice-exercise"
   }
 }
