@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
       
-        <title>Index - Sistemas Hardware-Software BCC - 2026/2</title>
+        <title>08 - Variáveis locais - Sistemas Hardware-Software BCC - 2026/2</title>
       
     
     <link rel="stylesheet"
@@ -116,7 +116,7 @@
 
             
               
-  <li class="ah-togglable-item">
+  <li class="ah-togglable-item opened">
     <span class="ah-togglable-handle">Aulas</span>
     <ul>
       
@@ -172,6 +172,50 @@
   
     <li>
       <a href="../07-loops/">07 - Loops</a>
+    </li>
+  
+
+      
+        
+  
+
+    <li class="active ah-togglable-item opened">
+      <span class="ah-togglable-handle">08 - Variáveis locais</span>
+      <ul>
+        
+          
+            
+            
+              <li class="ah-toc-item">
+                <a href="#exemplo-guiado">Exemplo guiado</a>
+              </li>
+            
+              <li class="ah-toc-item">
+                <a href="#revisao-de-variaveis-globais-e-strings-constantes">Revisão de variáveis globais e strings constantes</a>
+              </li>
+            
+              <li class="ah-toc-item">
+                <a href="#arquivo-ex2">Arquivo ex2</a>
+              </li>
+            
+              <li class="ah-toc-item">
+                <a href="#arquivo-ex3">Arquivo ex3</a>
+              </li>
+            
+              <li class="ah-toc-item">
+                <a href="#entrega">Entrega</a>
+              </li>
+            
+        
+      </ul>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../09-arrays/">09 - Array em Assembly</a>
     </li>
   
 
@@ -247,6 +291,10 @@
             <ul class="ah-breadcrumbs">
               
                 
+                  
+                    <li>Aulas</li>
+                  
+                
                 <li></li>
             </ul>
             
@@ -297,7 +345,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 </ul>
 <p>O endereçamento relativo a <code>%rip</code> leva em conta a posição relativa entre a instrução atual e o endereço de memória do dado. Na imagem acima estão destacadas duas instruções <code>lea</code> que acessam o mesmo dado. Como o <code>%rip</code> (ponteiro para a próxima instrução) é diferente precisamos de deslocamentos diferentes para acessar o mesmo dado. </p>
 <p><strong>Dica</strong>: o <em>gdb</em> coloca o endereço calculado ao lado das instruções deste tipo.</p>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/short_1" id="short_1_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/08-variaveis-locais/short_1" id="short_1_0">
 <p class="admonition-title">Exercise 1<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>É possível que o <code>lea</code> abaixo seja aritmético? Por que?</p>
@@ -418,7 +466,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 <p>São duas variáveis <code>int</code>: uma em <code>0xc(%rsp)</code> e outra em <code>0x8(%rsp)</code>. </p>
 </div>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/short_2" id="short_2_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/08-variaveis-locais/short_2" id="short_2_0">
 <p class="admonition-title">Exercise 4<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Identifique onde as variáveis locais encontradas são usadas. Dê um nome para cada uma delas.</p>
@@ -463,7 +511,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 <p>Não são aritméticos, portanto representam a operação endereço de <code>&amp;</code>.</p>
 </div>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/long_3" id="long_3_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/08-variaveis-locais/long_3" id="long_3_0">
 <p class="admonition-title">Exercise 6<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Com base em sua resposta acima, traduza as chamadas de função que ocorrem nas linhas <code>+25</code> e <code>+40</code>.</p>
@@ -478,7 +526,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 <p>Na linha <code>+25</code> ocorre a chamada <code>func2(&amp;a)</code>. Já na linha <code>+40</code> a chamada é <code>func2(&amp;b)</code></p>
 </div>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/long_4" id="long_4_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/08-variaveis-locais/long_4" id="long_4_0">
 <p class="admonition-title">Exercise 7<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Traduza o programa acima para <em>C</em> </p>
@@ -523,7 +571,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 <a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="w">   </span><span class="err">0</span><span class="nf">x1187</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">62</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">callq</span><span class="w">  </span><span class="mh">0x1030</span> <span class="p">&lt;</span><span class="no">puts@plt</span><span class="p">&gt;</span>
 <a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a><span class="w">   </span><span class="err">0</span><span class="nf">x118c</span><span class="w"> </span><span class="err">&lt;+</span><span class="mi">67</span><span class="err">&gt;</span><span class="p">:</span><span class="w">    </span><span class="no">jmp</span><span class="w">    </span><span class="mh">0x1176</span> <span class="p">&lt;</span><span class="no">main</span><span class="p">+</span><span class="mi">45</span><span class="p">&gt;</span>
 </code></pre></div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/short_5" id="short_5_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/08-variaveis-locais/short_5" id="short_5_0">
 <p class="admonition-title">Exercise 8<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Vamos começar procurando por variáveis locais que estejam na pilha. Quanto espaço é reservado para elas? Liste abaixo as que você encontrou e dê um nome para cada uma. </p>
@@ -539,7 +587,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 <p>Estão sendo reservados 24 bytes na pilha. Temos uma variável local <code>int n</code>.</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/short_6" id="short_6_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/08-variaveis-locais/short_6" id="short_6_0">
 <p class="admonition-title">Exercise 9<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>A instrução <code>call</code> em <code>main+21</code> é um <code>scanf</code>. O primeiro argumento é a string de formatação. Use o comando <code>x</code> do <em>gdb</em> para encontrar ela na memória. </p>
@@ -555,7 +603,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 <p>A string de formatação é "%d".</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/short_7" id="short_7_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/08-variaveis-locais/short_7" id="short_7_0">
 <p class="admonition-title">Exercise 10<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>O segundo argumento do <code>scanf</code> é o endereço da variável a ser preenchida. O endereço de qual variável local é passado?</p>
@@ -570,7 +618,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 <p>É o endereço da variável correspondente a <code>0xc(%rsp)</code></p>
 </div>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/short_8" id="short_8_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/08-variaveis-locais/short_8" id="short_8_0">
 <p class="admonition-title">Exercise 11<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Reconstrua a chamada do <code>scanf</code> acima.</p>
@@ -588,7 +636,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 </div>
 </div>
 <p>Com a chamada do <code>scanf</code> pronta, vamos analisar o restante do código.</p>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/short_9" id="short_9_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/08-variaveis-locais/short_9" id="short_9_0">
 <p class="admonition-title">Exercise 12<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Agora examinaremos as chamadas em <code>main+40</code> e <code>main+62</code>. Elas são para a função <code>puts</code>. Veja sua documentação (procure por <em>C puts</em>.) e explique abaixo o quê ela faz e quais são seus argumentos.</p>
@@ -603,7 +651,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 <p>Escreve os múltiplos caracteres de uma string, seguido de <code>\n</code>, na saída padrão</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/short_10" id="short_10_0">
+<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/08-variaveis-locais/short_10" id="short_10_0">
 <p class="admonition-title">Exercise 13<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Com base na explicação acima, escreva abaixo os argumentos passados para cada chamada.</p>
@@ -618,7 +666,7 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
 <p>São feitas duas chamadas: a primeira é <code>puts("Positivo")</code>  e a segunda é <code>puts("Negativo")</code>.</p>
 </div>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/08-variaveis-locais/long_11" id="long_11_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/08-variaveis-locais/long_11" id="long_11_0">
 <p class="admonition-title">Exercise 14<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Traduza o código acima para um versão em <em>C</em>.</p>
@@ -665,6 +713,20 @@ Como visto na expositiva, variáveis locais são armazenadas na pilha. O topo da
       <footer class="ah-footer ah-typeset">
         <div class="ah-footer-nav">
           
+            <a href="../07-loops/"
+               class="ah-prev"
+               title="07 - Loops">
+              <span class="nav-label">Previous</span>
+              <span class="nav-title">07 - Loops</span>
+            </a>
+          
+          
+            <a href="../09-arrays/"
+               class="ah-next"
+               title="09 - Array em Assembly">
+              <span class="nav-label">Next</span>
+              <span class="nav-title">09 - Array em Assembly</span>
+            </a>
           
         </div>
       </footer>

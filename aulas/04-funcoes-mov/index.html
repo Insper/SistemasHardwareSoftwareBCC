@@ -204,6 +204,22 @@
   
 
       
+        
+  
+    <li>
+      <a href="../08-variaveis-locais/">08 - Variáveis locais</a>
+    </li>
+  
+
+      
+        
+  
+    <li>
+      <a href="../09-arrays/">09 - Array em Assembly</a>
+    </li>
+  
+
+      
     </ul>
   </li>
 
@@ -394,7 +410,7 @@
 <p>Usaremos o <code>gdb</code> para abrir os arquivos <code>.o</code> nesta aula. Este tipo de arquivo contém funções compiladas, mas não é um executável completo por não ter uma função <code>main</code>.</p>
 </div>
 <h3 id="arquivo-ex1o">Arquivo <em>ex1.o</em></h3>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_1" id="long_1_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_1" id="long_1_0">
 <p class="admonition-title">Exercise 1<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>O código abaixo foi retirado do arquivo <code>ex1.o</code>. Faça sua tradução para <em>C</em>.</p>
@@ -411,7 +427,7 @@
 </form>
 </div>
 <h3 id="arquivo-ex2o">Arquivo <em>ex2.o</em></h3>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_2" id="long_2_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_2" id="long_2_0">
 <p class="admonition-title">Exercise 2<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Use o <code>gdb</code> para listar as funções definidas em <code>ex2.o</code> e escreva-as abaixo.</p>
@@ -422,7 +438,7 @@
 </div>
 </form>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_3" id="long_3_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_3" id="long_3_0">
 <p class="admonition-title">Exercise 3<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Faça a tradução das funções acima para <em>C</em></p>
@@ -441,7 +457,7 @@
 <a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="err">5:</span><span class="w">   </span><span class="err">89</span><span class="w"> </span><span class="err">07</span><span class="w">                   </span><span class="nf">mov</span><span class="w">    </span><span class="nv">%eax</span><span class="p">,(</span><span class="nv">%rdi</span><span class="p">)</span>
 <a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="err">7:</span><span class="w">   </span><span class="nf">c3</span><span class="w">                      </span><span class="no">retq</span>
 </code></pre></div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_4" id="long_4_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_4" id="long_4_0">
 <p class="admonition-title">Exercise 4<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>O quê faz a instrução <code>imul</code>?</p>
@@ -464,7 +480,7 @@
 <p>A instrução <code>imul   %eax, %eax</code> multiplica <code>%eax</code> por ele mesmo, ou seja, <code>%eax = %eax * %eax</code>.</p>
 </div>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_5" id="long_5_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_5" id="long_5_0">
 <p class="admonition-title">Exercise 5<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Traduza esta função para <em>C</em>. Fique atento ao tamanho dos registradores usados para identificar o tamanho dos variáveis inteiras.</p>
@@ -485,7 +501,7 @@
 <p><strong>Dica</strong>: lembre-se do comando <code>disas</code></p>
 </div>
 <p>Localize a chamada da função <code>ex4</code> no main. As intruções acima do <code>call</code> colocam os argumentos nos lugares corretos para <code>ex4</code> rodar.</p>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_6" id="long_6_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_6" id="long_6_0">
 <p class="admonition-title">Exercise 6<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Quantos argumentos a função recebe? Quais são seus valores?</p>
@@ -496,7 +512,7 @@
 </div>
 </form>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_7" id="long_7_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_7" id="long_7_0">
 <p class="admonition-title">Exercise 7<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Traduza a função <code>ex4</code> para <em>C</em>.</p>
@@ -520,7 +536,7 @@
 <a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="err">61</span><span class="nl">a:</span><span class="w">   </span><span class="nf">bf</span><span class="w"> </span><span class="mi">0</span><span class="no">a</span><span class="w"> </span><span class="mi">00</span><span class="w"> </span><span class="mi">00</span><span class="w"> </span><span class="mi">00</span><span class="w">          </span><span class="no">mov</span><span class="w">    </span><span class="no">$0xa</span><span class="p">,</span><span class="nv">%edi</span>
 <a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="err">61</span><span class="nl">f:</span><span class="w">   </span><span class="nf">e8</span><span class="w"> </span><span class="no">d6</span><span class="w"> </span><span class="no">ff</span><span class="w"> </span><span class="no">ff</span><span class="w"> </span><span class="no">ff</span><span class="w">          </span><span class="no">callq</span><span class="w">  </span><span class="mh">5fa</span> <span class="p">&lt;</span><span class="no">ex5</span><span class="p">&gt;</span>
 </code></pre></div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_8" id="long_8_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_8" id="long_8_0">
 <p class="admonition-title">Exercise 8<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Identifique a partir dos tipos de dados colocados nos registradores qual o tipo dos argumentos da função.</p>
@@ -531,7 +547,7 @@
 </div>
 </form>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_9" id="long_9_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_9" id="long_9_0">
 <p class="admonition-title">Exercise 9<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Qual são os endereços passados para a função <code>ex5</code>? Escreva-os em função do registrador <code>%rsp</code>.</p>
@@ -542,7 +558,7 @@
 </div>
 </form>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_10" id="long_10_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_10" id="long_10_0">
 <p class="admonition-title">Exercise 10<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Os endereços acima são passados em quais registradores?</p>
@@ -563,7 +579,7 @@
 <a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="err">604:</span><span class="w">   </span><span class="err">89</span><span class="w"> </span><span class="err">11</span><span class="w">                   </span><span class="nf">mov</span><span class="w">    </span><span class="nv">%edx</span><span class="p">,(</span><span class="nv">%rcx</span><span class="p">)</span>
 <a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="err">606:</span><span class="w">   </span><span class="nf">c3</span><span class="w">                      </span><span class="no">retq</span>
 </code></pre></div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_11" id="long_11_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_11" id="long_11_0">
 <p class="admonition-title">Exercise 11<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Como a instrução <code>idiv</code> funciona? Em quais registradores ela posiciona seu resultado? Em quais registradores ela espera a entrada?</p>
@@ -579,7 +595,7 @@
 <p>Depois da execução da instrução, <code>%eax</code> recebe o <strong>quociente</strong> e <code>%edx</code> recebe o <strong>resto</strong>.</p>
 </div>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_12" id="long_12_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_12" id="long_12_0">
 <p class="admonition-title">Exercise 12<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>O quê faz a instrução <code>cltd</code>? Por quê ela é necessária?</p>
@@ -596,7 +612,7 @@
 <p>Para resolver isso o compilador usa a instrução <code>cltd</code> (Convert Long to Doubleword) que copia o sinal de <code>%eax</code> para <code>%edx</code> (parte alta). Agora o par <code>%edx:%eax</code> representa o dividendo de 64 bits, em seguida <code>idiv %esi</code> divide esse valor por <code>%esi</code>.</p>
 </div>
 </div>
-<div class="admonition exercise text long tag-long-text tag-text-exercise editable" data-slug="aulas/04-funcoes-mov/long_13" id="long_13_0">
+<div class="admonition exercise text long tag-text-exercise tag-long-text editable" data-slug="aulas/04-funcoes-mov/long_13" id="long_13_0">
 <p class="admonition-title">Exercise 13<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Faça a tradução de <code>ex5</code> para <em>C</em>.</p>
