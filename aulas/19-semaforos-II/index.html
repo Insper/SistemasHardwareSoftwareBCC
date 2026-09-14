@@ -192,6 +192,14 @@
   
 
       
+        
+  
+    <li>
+      <a href="../10-revisao-AI/">10 - Revisão para a AI</a>
+    </li>
+  
+
+      
     </ul>
   </li>
 
@@ -347,7 +355,7 @@
 <a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a><span class="p">}</span>
 </code></pre></div>
 </details>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/19-semaforos-II/short_1" id="short_1_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/19-semaforos-II/short_1" id="short_1_0">
 <p class="admonition-title">Exercise 1<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Os semáforos poderiam ser inicializados com <code>1</code>?</p>
@@ -362,7 +370,7 @@
 <p>Não! Qualquer um deles que for inicializado com <code>1</code> fará com que a thread que espera por ele passe direto na barreira, um resultado indesejado. Recomendo que teste e rode várias vezes!</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/19-semaforos-II/short_2" id="short_2_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/19-semaforos-II/short_2" id="short_2_0">
 <p class="admonition-title">Exercise 2<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Dentro das threads, podemos inverter e fazer o <code>sem_wait</code> antes do <code>sem_post</code>?</p>
@@ -480,7 +488,7 @@ Sua thread pode fazer um procedimento qualquer, por exemplo, um loop infinito qu
 <p>Você pode supor que a thread produtora adiciona números na fila de tarefas, enquanto a thread consumidora espera por um segundo ou dois (para simular processamento) e então exibe o número consumido na saída padrão.</p>
 </div>
 <p><img alt="Modelo com uma thread produtora e uma thread consumidora" src="produtor_consumidor1.png" /></p>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/19-semaforos-II/short_3" id="short_3_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/19-semaforos-II/short_3" id="short_3_0">
 <p class="admonition-title">Exercise 3<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Como os índices do cache serão manipulados pelas threads produtora e consumidora?! Qual tipo de dados é indicado?</p>
@@ -495,7 +503,7 @@ Sua thread pode fazer um procedimento qualquer, por exemplo, um loop infinito qu
 <p>Procure por fila circular, buffer circular!</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/19-semaforos-II/short_4" id="short_4_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/19-semaforos-II/short_4" id="short_4_0">
 <p class="admonition-title">Exercise 4<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Como podemos controlar para que a thread produtora espere caso o buffer esteja cheio?</p>
@@ -510,7 +518,7 @@ Sua thread pode fazer um procedimento qualquer, por exemplo, um loop infinito qu
 <p>Podemos utilizar um semáforo inicializado com o tamanho no buffer. Cada produção realiza um wait neste semáforo. Quando o semáforo zera então o cache está cheio e a thread produtora deve esperar. Tente pensar se o consumo deve ou não atualizar este semáforo!</p>
 </div>
 </div>
-<div class="admonition exercise text short tag-text-exercise tag-short-text editable" data-slug="aulas/19-semaforos-II/short_5" id="short_5_0">
+<div class="admonition exercise text short tag-short-text tag-text-exercise editable" data-slug="aulas/19-semaforos-II/short_5" id="short_5_0">
 <p class="admonition-title">Exercise 5<button class="editable-button"></button></p>
 <form class="exercise-form">
 <p>Como podemos controlar para que a thread consumidora espere caso o buffer esteja vazio?</p>
