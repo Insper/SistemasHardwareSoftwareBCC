@@ -32,7 +32,7 @@ nav:
     - "10 - Revisão para a AI": aulas/10-revisao-AI/index.md
     - "11 - Processos": aulas/11-processos/index.md
     - "12 - Carregamento de programas": aulas/12-exec/index.md
-    # - "13 - Entrada/Saída": aulas/13-entrada-saida/index.md
+    - "13 - Entrada/Saída": aulas/13-entrada-saida/index.md
     # - "14 - Enviando sinais": aulas/14-sinais-I/index.md
     # - "15 - Capturando sinais": aulas/15-sinais-II/index.md
     # - "16 - Concorrência e Threads": aulas/16-threads-I/index.md
