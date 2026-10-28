@@ -1648,8 +1648,8 @@
   },
   "tags": {
     "long-text": "long-text",
-    "short-text": "short-text",
     "text-exercise": "text-exercise",
+    "short-text": "short-text",
     "medium-text": "medium-text",
     "choice-exercise": "choice-exercise"
   }
